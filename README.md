@@ -107,15 +107,15 @@ ___
 <details>
 <summary>Mobile</summary>
 <br>
-![Screenshot of Famous Places mobile view wireframe](documentation/famous-places-wireframes-mobileview.PNG)
+![Screenshot of Famous Places mobile view wireframe](documentation/famous_places_wireframes_mobileview.PNG)
 </details>
 
 <details>
 <summary>Desktop</summary>
 <br>
-![Screenshot of Famous Places desktop view wireframe - index page](documentation/famous-places-wireframes-gamerules-desktopview.PNG)
-![Screenshot of Famous Places desktop view wireframe - quiz page](documentation/famous-places-wireframes-quiz-desktopview.PNG)
-![Screenshot of Famous Places desktop view wireframe - results](documentation/famous-places-wireframes-results-desktopview.PNG)
+![Screenshot of Famous Places desktop view wireframe - index page](documentation/famous_places_wireframes_gamerules_desktopview.PNG)
+![Screenshot of Famous Places desktop view wireframe - quiz page](documentation/famous_places_wireframes_quiz_desktopview.PNG)
+![Screenshot of Famous Places desktop view wireframe - results](documentation/famous_places_wireframes_results_desktopview.PNG)
 </details>
 
 #### Surface 
