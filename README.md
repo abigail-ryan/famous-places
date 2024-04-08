@@ -59,3 +59,29 @@ Users of this site can play the multiple- choice quiz, with immediate feedback, 
          
  
 ___
+
+### User Stories
+#### Primary Goal
+
+The goal is to create an interactive online quiz for teens and adults, based on famous landmarks throughout the world. 
+
+#### Visitor Goals
+
+Visitors to Famous Places will be able to take part in a general knowledge quiz and see in real time if they got the correct answers. They will also be able to view their final score and have a chance to take the quiz again.
+
+#### New User
+
+* A new user can easily identify what the quiz is about.
+* A new user can understand the quiz rules.
+* A new user can start the quiz when they are ready.
+* A new user can see what question number they are on.
+* A new user can immediately see if their answer is correct/incorrect.
+* A new user can easily navigate through the quiz.
+* A new user can view their final score.
+* A new user can start the quiz over again.
+
+#### Site Admin
+
+* •	I want to give users a fun experience testing their knowledge of landmarks around the world.
+
+
