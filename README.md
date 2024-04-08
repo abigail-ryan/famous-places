@@ -84,4 +84,36 @@ Visitors to Famous Places will be able to take part in a general knowledge quiz 
 
 * •	I want to give users a fun experience testing their knowledge of landmarks around the world.
 
+___
 
+### UX Design
+
+#### Strategy
+
+* The Famous Places quiz needs to be fun, bright and interactive. The design must be simple but effective in displaying to the user that this is an online quiz game.
+* The landing page needs to deliver clear information what this quiz is about.
+* The rules of the game need to be easy to understand and read.
+* The quiz needs to be started when the user is ready.
+* Navigating through this quiz needs to be easy for the user.
+* Full responsiveness for all screen sizes is essential for this website.
+
+#### Scope
+
+#### Structure
+
+#### Skeleton
+
+#### Wireframes
+<details>
+<summary>Mobile</summary>
+<br>
+</details>
+
+<details>
+<summary>Desktop</summary>
+<br>
+</details>
+
+#### Surface 
+
+___
