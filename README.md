@@ -82,7 +82,7 @@ Visitors to Famous Places will be able to take part in a general knowledge quiz 
 
 #### Site Admin
 
-* •	I want to give users a fun experience testing their knowledge of landmarks around the world.
+* I want to give users a fun experience testing their knowledge of landmarks around the world.
 
 ___
 
@@ -91,33 +91,94 @@ ___
 #### Strategy
 
 * The Famous Places quiz needs to be fun, bright and interactive. The design must be simple but effective in displaying to the user that this is an online quiz game.
-* The landing page needs to deliver clear information what this quiz is about.
-* The rules of the game need to be easy to understand and read.
 * The quiz needs to be started when the user is ready.
-* Navigating through this quiz needs to be easy for the user.
+* Navigating through this quiz needs to be easy for the player.
+*	The final score must be displayed to the player.
+*	All text must be clear and legible on all device sizes. 
 * Full responsiveness for all screen sizes is essential for this website.
 
 #### Scope
 
+*	The landing page should display the game rules. 
+*	A “start” button will allow users to start the quiz when they are ready.
+*	Once selected, the player will not be able to change their answer.
+*	After an answer has been selected the “next” button will display to take the player to the next question.
+*	The game will record the players correct answers.
+*	When the quiz is finished, feedback to the player showing their score will be displayed.
+*	A “play again” button will be displayed to allow the user to play the game again.
+
 #### Structure
 
+*	A large heading with the game name “Famous Places”, will be at the top of the page, with an icon of a globe/location pin.
+*	A clear and short introduction to the game rules will be displayed to the user, to inform them how to play.
+*	A clear call to action “start” button will be displayed underneath the rules to prompt the player to start the game,
+*	The game will display large images with a question and multiple choice answers to test the players knowledge.
+*	The answer buttons on the site must provide feedback to the player, in the form of a colour change to green for correct, and red for incorrect.
+*	The next button will take the player to the next question.
+*	The player will be informed of their score once all questions have been answered, with an option to play the game again.
+
 #### Skeleton
+
+*	The layout and design of the quiz must be clean, and very minimal to avoid distraction.
+*	Upon loading, the landing page will display an icon and a large heading.
+*	Below that, a small image of a compass along with the game rules, with a start button underneath allowing the player to start the quiz when ready. This will be displayed on a ‘tile’ background that is centred on the page.
+*	The player will be taken to the first question, which will have a large image of a famous monument/building, along with a question, and 4 possible answers. This will be displayed on a ‘tile’ that is centred on the page.
+*	The “next” button will be displayed after the player selects an answer.
+*	The results page will show the player a tally of their score. Again this will be displayed again on a ‘tile’ background that is centred on the page.
 
 #### Wireframes
 <details>
 <summary>Mobile</summary>
 <br>
+
 ![Screenshot of Famous Places mobile view wireframe](documentation/famous_places_wireframes_mobileview.PNG)
+
 </details>
 
 <details>
 <summary>Desktop</summary>
 <br>
+
 ![Screenshot of Famous Places desktop view wireframe - index page](documentation/famous_places_wireframes_gamerules_desktopview.PNG)
+
 ![Screenshot of Famous Places desktop view wireframe - quiz page](documentation/famous_places_wireframes_quiz_desktopview.PNG)
+
 ![Screenshot of Famous Places desktop view wireframe - results](documentation/famous_places_wireframes_results_desktopview.PNG)
 </details>
 
 #### Surface 
 
 ___
+
+### Design
+#### Color Scheme
+
+With the idea to keep the design clean and fresh I chose my color pallete based on the images I had sourced for my questions. As my questions imagery has quite a strong blue presence, I chose bright contrasting colors similar to the background question-mark image. I also chose a vibrant green for indicating the correct answer, as well as a strong red to indicate incorrect answers.
+
+![Screenshot of Famous Places color palette](documentation/famous_places_color_pallete.PNG)
+
+I tested these colours out in Uizard to see a how I liked the color pairing.
+
+<details>
+<summary>Color pairing test</summary>
+<br>
+
+![Screenshot of Famous Places color palette test in Uizard](documentation/famous_places_color_pallete_test.PNG)
+</details>
+
+
+<br>
+I also ran my colour pairings through Contrast Checker to check for color contrast accessibility issues. I had initially wanted to use white text within all my buttons however this returned all fails for the answers buttons color. So I decided to use black text throughout the entire quiz, apart from the “start”, “next”  and “play again” buttons, as these passed the contrast checker for large text, and so I ensured these buttons were large with a high font weight to make the text bold.
+
+
+<details>
+<summary>Color Contrast Checker</summary>
+<br>
+
+![Screenshot of Famous Places contrast checker 1](documentation/contrast_checker_1.PNG)
+![Screenshot of Famous Places contrast checker 2](documentation/contrast_checker_2.PNG)
+![Screenshot of Famous Places contrast checker 3](documentation/contrast_checker_3.PNG)
+![Screenshot of Famous Places contrast checker 4](documentation/contrast_checker_4.PNG)
+</details>
+
+
