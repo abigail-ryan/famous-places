@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Famous Places</title>
+</head>
+<body>
+    <!-- Quiz Page -->
+    <div class="container">
+        <div id="question-container" class="hide"></div>
+        <div id="quiz-img"></div>
+        <div id="question">Question</div>
+        <div id="answer-buttons" class="btn-grid">
+            <button class="btn">Answer 1</button>
+            <button class="btn">Answer 2</button>
+            <button class="btn">Answer 3</button>
+            <button class="btn">Answer 4</button>
+        </div>
+        <div class="controls">
+            <button id="next-btn" class="next-btn btn hide">Next</button>
+          </div>
+    </div>
+    <!-- Modal window pop up: displays game rules, player name input and start button. Adapted from https://github.com/amylour/irish_wildlife_matchup/-->
+    <div id="start-modal" class="modal">
+        <div class="modal-background">
+          <div class="modal-content">
+            <h1>Famous Places</h1>
+    <img src="" alt="">
+    <h2>Games Rules:</h2>
+    <p>The game is simple, we show you some Famous Places and you guess the correct answer!</p>
+            <p>Enter your name and click “start” to play.<br>
+              <!-- Optional enter name for personalisation -->
+            <form class="modal-form" method="dialog" autocomplete="off">
+              <label for="username" aria-label="Enter optional username"><span>Enter your name:</span></label><br>
+              <input type="text" id="username" name="username" placeholder="(optional)"><br>
+              <button type="submit" id="name-button" class="start-button">Start</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <!-- Modal window pop up: displays player results and message -->
+  <div id="win-modal" class="modal">
+    <div class="modal-background">
+      <div class="modal-content">
+        <h1>Player name<span id="playerName"></span>!</h1>
+        <div class="win-scores">
+            You scored:<br>
+            <span class="player-score" id="player-score-value">00</span><br>
+          </p>
+        </div>
+        <button type="submit" class="play-again-btn" id="play-again" onclick="playAgain()">Play Again</button>
+      </div>
+    </div>
+  </div>
+
+    
+    
+</body>
+</html>
