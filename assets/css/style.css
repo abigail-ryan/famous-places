@@ -46,8 +46,15 @@ body {
     color: black;
   }
 
-  .next-btn {
-    border: 1px solid #a800a5;
+  .footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+
+  .footer .next-btn {
+    border: 2px solid #a800a5;
     background-color: #ff00fa;
     box-shadow: 0 0 6px 2px #ff00fa;
     border-radius: 5px;
