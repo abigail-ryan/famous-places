@@ -38,12 +38,13 @@ body {
   }
 
   .btn {
-    border: 1px solid #9b5102;
+    border: 1px solid white;
     background-color: #ff8500;
-    box-shadow: 0 0 6px 2px #ff8500;
+    box-shadow: 0 0 6px 2px #a7a6a6;
     border-radius: 5px;
     padding: 15px 10px;
     color: black;
+    font-weight: 800;
   }
 
   .footer {
@@ -56,8 +57,24 @@ body {
   .footer .next-btn {
     border: 2px solid #a800a5;
     background-color: #ff00fa;
-    box-shadow: 0 0 6px 2px #ff00fa;
+    box-shadow: 0 0 6px 2px #a7a6a6;
+    width: 100px;
     border-radius: 5px;
     padding: 15px 10px;
+    color: white;
+    font-weight: 800;
+  }
+
+  .btn:hover {
+    box-shadow: 0 0 6px 2px #ff8500;
+    background-color: white; 
+    color: ff8500;
+    font-weight: 800;
+  }
+
+  .footer .next-btn:hover {
+    border: 2px solid #a800a5;
+    background-color: #a800a5;
+    box-shadow: 0 0 6px 2px #ff00fa;
     color: white;
   }
