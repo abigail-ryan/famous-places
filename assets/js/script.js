@@ -1,7 +1,7 @@
 const questions = [
     {
         image : "assets/images/abu-simbel-temples-egypt.jpg",
-        question : "Representing the birth and coronation of King Rameses II, this is...",
+        question : "Representing the birth and coronation of King Ramses II, this is...",
         answers : [
             { text : "Mount Rushmore", correct : false},
             { text : "Abu Simbel Temple", correct : true},
@@ -71,7 +71,7 @@ const questions = [
     },
     {
         image : "assets/images/grand-canyon-arizona.jpg",
-        question : "In 1909, which of these famous canyons was the site of a giant hoax?",
+        question : "In 1909, which of these famous canyons was the site of an Ancient Egyptian artifacts hoax?",
         answers : [
             { text : "The Grand Canyon of Yellowstone", correct : false},
             { text : "Antelope Canyon", correct : false},
@@ -111,7 +111,7 @@ const questions = [
     },
     {
         image : "assets/images/taj-mahal-india.jpg",
-        question : "Who did Mughal Emperor Shah Jahan build the Taj Mahal in memory of?",
+        question : "Who did the Mughal Emperor Shah Jahan build the Taj Mahal in memory of?",
         answers : [
             { text : "His mother", correct : false},
             { text : "His favourite daughter", correct : false},
@@ -121,7 +121,7 @@ const questions = [
     },
     {
         image : "assets/images/the-great-wall-china.jpg",
-        question : "Great Wall of China was buuilt by which Dynasty?",
+        question : "The Great Wall of China was built by which Dynasty?",
         answers : [
             { text : "Ming dynasty", correct : false},
             { text : "Qin Dynasty,", correct : true},
@@ -141,7 +141,7 @@ const questions = [
     },
     {
         image : "assets/images/the-sydney-opera-house-australia.jpg",
-        question : "in an international design competition held in 1956, how many designs were submitted for the Sydney Opera House?",
+        question : "In an international design competition held in 1956, how many designs were submitted for the Sydney Opera House?",
         answers : [
             { text : "8", correct : false},
             { text : "75,", correct : false},
