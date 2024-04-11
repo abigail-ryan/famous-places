@@ -63,6 +63,7 @@ body {
     padding: 15px 10px;
     color: white;
     font-weight: 800;
+    display: none;
   }
 
   .btn:hover {
