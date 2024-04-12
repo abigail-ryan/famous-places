@@ -175,6 +175,7 @@ function startQuiz(){
 
 /** shows the question number beside the question */
 function showQuestions(){
+    resetState();
 
     let currentQuestion = questions[currentQuestionIndex];
 
@@ -194,6 +195,13 @@ function showQuestions(){
         button.addEventListener("click", selectAnswer);
         
     });
+}
+
+function resetState(){
+    nextButton.style.display = "none";
+    while(answerButton.firstChild){
+        answerButton.removeChild(answerButton.firstChild);
+    }
 }
 
 function selectAnswer(e) {
@@ -219,7 +227,7 @@ function selectAnswer(e) {
 
 function handleNextButton(){
     currentQuestionIndex++;
-    if(currentQuestionIndex < questions.length){
+    if(currentQuestionIndex < 10){
         showQuestions();
     } else {
         showScore();
@@ -227,7 +235,7 @@ function handleNextButton(){
 }
 
 nextButton.addEventListener("click", ()=> {
-    if(currentQuestionIndex < questions.length){
+    if(currentQuestionIndex < 10){
         handleNextButton();
     } else {
         startQuiz();
