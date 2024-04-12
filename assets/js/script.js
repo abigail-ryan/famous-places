@@ -151,10 +151,12 @@ const questions = [
     },
 ]
 
+
 const quizImages = document.getElementById("quiz-img")
 const questionElement = document.getElementById("question");
 const answerButton = document.getElementById("answer-buttons");
 const nextButton = document.getElementById("next-btn");
+const containerElement = document.getElementsByClassName("container");
 
 let shuffledQuestions
 
@@ -181,13 +183,58 @@ function showQuestions(){
     let questionNumber = currentQuestionIndex + 1;
     questionElement.innerHTML = questionNumber + ". " + currentQuestion.question;
 
-
     currentQuestion.answers.forEach(answers => {
         const button = document.createElement("button");
         button.innerHTML = answers.text;
         button.classList.add("btn");
         answerButton.appendChild(button);
+        if (answers.correct) {
+                button.dataset.correct = answers.correct;
+            }
+        button.addEventListener('click', selectAnswer);
+        
     });
 }
+
+function selectAnswer(e) {
+    const selectedButton = e.target;
+    const isCorrect = selectedButton.dataset.correct === "true";
+    if (isCorrect){
+        selectedButton.classList.add("btnCorrect"); 
+        // setStatusClass(document.containerElement, isCorrect);
+        // Array.from(answerButton.children).forEach(button => {
+        //     setStatusClass(button, button.dataset.correct);
+        // })
+    } else {
+        selectedButton.classList.add("btnIncorrect");
+    }
+    Array.from(answerButton.children).forEach(button => {
+        if(button.dataset.correct === "true"){
+            button.classList.add("correct");
+        }
+        button.disabled = true;
+    });
+    nextButton.style.display = "block";
+}
+
+
+// function setStatusClass(isCorrect) {
+//     clearStatusClass(answerButton, containerElement)
+//     if(isCorrect) {
+//         selectedButton.classList.add("btnCorrect");
+//         containerElement.classList.add("containerCorrect");
+//     } else {
+//         button.classList.add("btnIncorrect");
+//         containerElement.classList.add("containerIncorrect")
+//     }
+// }
+
+// function clearStatusClass(element) {
+//     element.classList.remove("Correct");
+//     element.classList.remove("Incorrect");
+// }
+
+
+
 
 startQuiz();

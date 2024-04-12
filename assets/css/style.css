@@ -90,12 +90,12 @@ body {
     display: none;
   }
 
-  .btn:hover {
+  /* .btn:hover {
     box-shadow: 0 0 6px 2px #ff8500;
     background-color: white; 
     color: ff8500;
     font-weight: 800;
-  }
+  } */
 
   .footer .next-btn:hover {
     border: 2px solid #a800a5;
