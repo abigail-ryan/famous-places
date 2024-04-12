@@ -19,8 +19,17 @@ body {
     background-color: white;
     border-radius: 5px;
     padding: 10px;
-    box-shadow: 0 0 10px 2px #ff00fa;
+    box-shadow: 0 0 10px 6px #ff00fa;
   }
+
+  .containerCorrect {
+    box-shadow: 0 0 10px 6px #00ff05;
+  }
+
+  .containerIncorrect {
+    box-shadow: 0 0 10px 6px #f51720;
+  }
+
 
   #quiz-img img{
     max-width: 100%;
@@ -52,6 +61,14 @@ body {
     color: black;
     font-weight: 800;
     /* font-size: 100%; */
+  }
+
+  .btnCorrect {
+    background-color: #00ff05;
+  }
+  
+  .btnIncorrect {
+    background-color: #f51720;
   }
 
   .footer {
