@@ -156,11 +156,13 @@ const questionElement = document.getElementById("question");
 const answerButton = document.getElementById("answer-buttons");
 const nextButton = document.getElementById("next-btn");
 
+let shuffledQuestions
 
 let currentQuestionIndex = 0;
 let score = 0;
 
 function startQuiz(){
+    shuffledQuestions = questions.sort(() => Math.random() - .5)
     currentQuestionIndex = 0;
     score = 0;
     nextButton.innerHTML = "Next";
