@@ -191,7 +191,7 @@ function showQuestions(){
         if (answers.correct) {
                 button.dataset.correct = answers.correct;
             }
-        button.addEventListener('click', selectAnswer);
+        button.addEventListener("click", selectAnswer);
         
     });
 }
@@ -217,6 +217,22 @@ function selectAnswer(e) {
     nextButton.style.display = "block";
 }
 
+function handleNextButton(){
+    currentQuestionIndex++;
+    if(currentQuestionIndex < questions.length){
+        showQuestions();
+    } else {
+        showScore();
+    }
+}
+
+nextButton.addEventListener("click", ()=> {
+    if(currentQuestionIndex < questions.length){
+        handleNextButton();
+    } else {
+        startQuiz();
+    }
+})
 
 // function setStatusClass(isCorrect) {
 //     clearStatusClass(answerButton, containerElement)
