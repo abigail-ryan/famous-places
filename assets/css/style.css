@@ -7,7 +7,7 @@ body {
     justify-content: center;
     align-items: center;
     background-image: url(../images/famous_places_background_img.jpg);
-    backdrop-filter: blur(5px);
+    backdrop-filter: brightness(0.5);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -84,7 +84,7 @@ body {
     box-shadow: 0 0 6px 2px #a7a6a6;
     width: 100px;
     border-radius: 5px;
-    padding: 15px 10px;
+    padding: 12px 10px;
     color: white;
     font-weight: 800;
     display: none;
