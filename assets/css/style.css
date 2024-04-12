@@ -7,6 +7,7 @@ body {
     justify-content: center;
     align-items: center;
     background-image: url(../images/famous_places_background_img.jpg);
+    backdrop-filter: blur(5px);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
