@@ -209,6 +209,8 @@ function selectAnswer(e) {
     const isCorrect = selectedButton.dataset.correct === "true";
     if (isCorrect){
         selectedButton.classList.add("btnCorrect"); 
+
+        
         // setStatusClass(document.containerElement, isCorrect);
         // Array.from(answerButton.children).forEach(button => {
         //     setStatusClass(button, button.dataset.correct);
