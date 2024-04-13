@@ -83,7 +83,7 @@ body {
   color: white;
 }    
   
-  .container {
+  .quiz-container {
     width: 800px;
     max-width: 80%;
     background-color: white;
@@ -92,11 +92,11 @@ body {
     box-shadow: 0 0 10px 6px #ff00fa;
   }
 
-  .containerCorrect {
+  .quizContainerCorrect {
     box-shadow: 0 0 10px 6px #00ff05;
   }
 
-  .containerIncorrect {
+  .quizContainerIncorrect {
     box-shadow: 0 0 10px 6px #f51720;
   }
 
