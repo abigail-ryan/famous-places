@@ -162,4 +162,14 @@ body {
     gap: 15px;
     margin: 30px 40px;
 }
+
+.modal-content {
+  max-width: 60%;
+  height: 380px;
+}
+
+.modal-container {
+  max-width: 70%;
+  height: 480px;
+}
 }
