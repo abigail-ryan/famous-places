@@ -12,6 +12,55 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
   }
+
+  .modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 100%;
+    width: 100%;
+}
+
+.modal-background {
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.modal-content {
+  background-color: white;
+  box-shadow: 0 0 10px 6px #ff00fa;
+  width: 100vw;
+  height: 100vh;
+  padding: 20px;
+  max-width: 60%;
+  height: 500px;
+}
+
+.modal-container {
+  background-image: url(../images/famous_places_background_img.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px;
+  padding: 10px;
+  width: 100vw;
+  height: 100vh;
+  padding: 20px;
+  max-width: 80%;
+  height: 540px;
+}
+
+.modal-content , .modal-container {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
   
   .container {
     width: 800px;
