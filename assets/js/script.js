@@ -167,6 +167,7 @@ const questionElement = document.getElementById("question");
 const answerButton = document.getElementById("answer-buttons");
 const nextButton = document.getElementById("next-btn");
 const quizContainerElement = document.getElementsByClassName("quizContainer");
+const playerScore = document.getElementById("result-modal");
 
 startQuizButton.addEventListener("click", startQuiz);
 
@@ -178,7 +179,8 @@ let score = 0;
 
 
 function startQuiz(){
-    modal.style.display = "none"
+    modal.style.display = "none";
+    playerScore.style.display = "none";
     shuffledQuestions = questions.sort(() => Math.random() - .5)
     currentQuestionIndex = 0;
     score = 0;
@@ -267,7 +269,10 @@ nextButton.addEventListener("click", ()=> {
     }
 })
 
+function showScore() {
+    playerScore.style.display = "block";
 
+}
 
 
 
