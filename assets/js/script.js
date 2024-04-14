@@ -166,7 +166,7 @@ const quizImages = document.getElementById("quiz-img")
 const questionElement = document.getElementById("question");
 const answerButton = document.getElementById("answer-buttons");
 const nextButton = document.getElementById("next-btn");
-const quizContainerElement = document.getElementsByClassName("quiz-container");
+const quizContainerElement = document.getElementsByClassName("quizContainer");
 
 startQuizButton.addEventListener("click", startQuiz);
 
@@ -175,6 +175,7 @@ let shuffledQuestions
 
 let currentQuestionIndex = 0;
 let score = 0;
+let questionNumb = 1;
 
 function startQuiz(){
     modal.style.display = "none"
@@ -187,14 +188,15 @@ function startQuiz(){
 
 
 
-/** shows the question number beside the question */
+
 function showQuestions(){
     resetState();
 
     let currentQuestion = questions[currentQuestionIndex];
 
-    document.getElementById('quiz-img').innerHTML = `<img src="/${currentQuestion.image}">`;
+    document.getElementById('quiz-img').innerHTML = `<img src="${currentQuestion.image}">`;
     
+    // shows the question number beside the question
     let questionNumber = currentQuestionIndex + 1;
     questionElement.innerHTML = questionNumber + ". " + currentQuestion.question;
 
@@ -211,6 +213,12 @@ function showQuestions(){
     });
 }
 
+function questionCounter(index) {
+    const questionTotal = document.getElementById("question-progress");
+    questionTotal.textContent = `Question ${index} of ${questions.length}`;
+}
+
+
 function resetState(){
     nextButton.style.display = "none";
     while(answerButton.firstChild){
@@ -221,14 +229,17 @@ function resetState(){
 function selectAnswer(e) {
     const selectedButton = e.target;
     const isCorrect = selectedButton.dataset.correct === "true";
-    if (isCorrect){
-        selectedButton.classList.add("btnCorrect"); 
 
-        
-        // setStatusClass(document.containerElement, isCorrect);
+
+    // To change the container box shadow to green for correct and red for incorrect - 
+    // setStatusClass(document.containerElement, isCorrect);
         // Array.from(answerButton.children).forEach(button => {
         //     setStatusClass(button, button.dataset.correct);
         // })
+
+    if (isCorrect){
+        selectedButton.classList.add("btnCorrect");
+        score++; 
     } else {
         selectedButton.classList.add("btnIncorrect");
     }
@@ -240,6 +251,8 @@ function selectAnswer(e) {
     });
     nextButton.style.display = "block";
 }
+
+
 
 function handleNextButton(){
     currentQuestionIndex++;
@@ -258,21 +271,7 @@ nextButton.addEventListener("click", ()=> {
     }
 })
 
-// function setStatusClass(isCorrect) {
-//     clearStatusClass(answerButton, containerElement)
-//     if(isCorrect) {
-//         selectedButton.classList.add("btnCorrect");
-//         containerElement.classList.add("containerCorrect");
-//     } else {
-//         button.classList.add("btnIncorrect");
-//         containerElement.classList.add("containerIncorrect")
-//     }
-// }
 
-// function clearStatusClass(element) {
-//     element.classList.remove("Correct");
-//     element.classList.remove("Incorrect");
-// }
 
 
 
