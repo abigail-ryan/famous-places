@@ -151,12 +151,25 @@ const questions = [
     },
 ]
 
+// open start modal with game rules, player name input and start button on page load
+window.addEventListener("load", function () {
+    this.setTimeout(
+        function open(event) {
+            document.getElementById("start-modal").style.display = "block";
+        }, 100);
+});
 
+const modal = document.getElementById("start-modal");
+let username = document.getElementById("username");
+const startQuizButton = document.getElementById("start-button")
 const quizImages = document.getElementById("quiz-img")
 const questionElement = document.getElementById("question");
 const answerButton = document.getElementById("answer-buttons");
 const nextButton = document.getElementById("next-btn");
 const quizContainerElement = document.getElementsByClassName("quiz-container");
+
+startQuizButton.addEventListener("click", startQuiz);
+
 
 let shuffledQuestions
 
@@ -164,6 +177,7 @@ let currentQuestionIndex = 0;
 let score = 0;
 
 function startQuiz(){
+    modal.style.display = "none"
     shuffledQuestions = questions.sort(() => Math.random() - .5)
     currentQuestionIndex = 0;
     score = 0;
