@@ -185,6 +185,10 @@ body {
     margin: 30px 40px;
   }
 
+  .footer .next-btn {
+    width: 250px;
+  }
+
   .modal-content {
     max-width: 60%;
     height: 380px;

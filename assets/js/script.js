@@ -175,7 +175,7 @@ let shuffledQuestions
 
 let currentQuestionIndex = 0;
 let score = 0;
-let questionNumb = 1;
+
 
 function startQuiz(){
     modal.style.display = "none"
@@ -213,10 +213,6 @@ function showQuestions(){
     });
 }
 
-function questionCounter(index) {
-    const questionTotal = document.getElementById("question-progress");
-    questionTotal.textContent = `Question ${index} of ${questions.length}`;
-}
 
 
 function resetState(){
