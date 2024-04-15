@@ -91,14 +91,14 @@ body {
     padding: 10px;
     box-shadow: 0 0 10px 6px #ff00fa;
   }
-
-  .quizContainer.correct {
+/* Not using these class styles - remove */
+  /* .correct {
     box-shadow: 0 0 10px 6px #00ff05;
   }
 
-  .quizContainer.incorrect {
+ .incorrect {
     box-shadow: 0 0 10px 6px #f51720;
-  }
+  } */
 
 
   #quiz-img img{

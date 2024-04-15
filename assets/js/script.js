@@ -151,7 +151,7 @@ const questions = [
     },
 ]
 
-// open start modal with game rules, player name input and start button on page load
+// loads start modal with game rules, player name input and start button 
 window.addEventListener("load", function () {
     this.setTimeout(
         function open(event) {
@@ -216,7 +216,6 @@ function showQuestions(){
 }
 
 
-
 function resetState(){
     nextButton.style.display = "none";
     while(answerButton.firstChild){
@@ -226,14 +225,7 @@ function resetState(){
 
 function selectAnswer(e) {
     const selectedButton = e.target;
-    const isCorrect = selectedButton.dataset.correct === "true";
-
-
-    // To change the container box shadow to green for correct and red for incorrect - 
-    // setStatusClass(document.containerElement, isCorrect);
-        // Array.from(answerButton.children).forEach(button => {
-        //     setStatusClass(button, button.dataset.correct);
-        // })
+    const isCorrect = selectedButton.dataset.correct;
 
     if (isCorrect){
         selectedButton.classList.add("btnCorrect");
@@ -242,14 +234,13 @@ function selectAnswer(e) {
         selectedButton.classList.add("btnIncorrect");
     }
     Array.from(answerButton.children).forEach(button => {
-        if(button.dataset.correct === "true"){
+        if(button.dataset.correct){
             button.classList.add("correct");
         }
         button.disabled = true;
     });
     nextButton.style.display = "block";
 }
-
 
 
 function handleNextButton(){
@@ -271,9 +262,8 @@ nextButton.addEventListener("click", ()=> {
 
 function showScore() {
     playerScore.style.display = "block";
-
+    document.getElementById("player-score-value").innerHTML = username.value;
 }
-
 
 
 
