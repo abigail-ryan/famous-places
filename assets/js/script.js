@@ -262,9 +262,8 @@ nextButton.addEventListener("click", ()=> {
 
 function showScore() {
     playerScore.style.display = "block";
-    document.getElementById("player-score-value").innerHTML = username.value;
+    document.getElementById("player-score-value").innerHTML = `${score} out of ${currentQuestionIndex} correct answers!`;
 }
-
 
 
 startQuiz();
