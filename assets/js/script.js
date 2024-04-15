@@ -262,8 +262,12 @@ nextButton.addEventListener("click", ()=> {
 
 function showScore() {
     playerScore.style.display = "block";
-    document.getElementById("playerName").innerHTML = `${username.value}`;
     document.getElementById("player-score-value").innerHTML = `${score} out of ${currentQuestionIndex} correct answers!`;
+    if(username.value){
+        document.getElementById("playerName").innerHTML = `${username.value}`;
+    } else {
+        document.getElementById("playerName").innerHTML = `${"Player 1"}`;
+    }
 }
 
 
