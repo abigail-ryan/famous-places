@@ -1,3 +1,4 @@
+// Questions array
 const questions = [
     {
         image : "assets/images/abu-simbel-temples-egypt.jpg",
@@ -180,6 +181,7 @@ let score = 0;
 function startQuiz(){
     modal.style.display = "none";
     playerScore.style.display = "none";
+    // Shuffles the questions for every new game
     shuffledQuestions = questions.sort(() => Math.random() - .5)
     currentQuestionIndex = 0;
     score = 0;
@@ -192,15 +194,15 @@ function startQuiz(){
 
 function showQuestions(){
     resetState();
-
+// Gets the current question and answers set as well as the associated image
     let currentQuestion = questions[currentQuestionIndex];
-
     document.getElementById('quiz-img').innerHTML = `<img src="${currentQuestion.image}">`;
     
-    // shows the question number beside the question
+    // Shows the question number beside the question, increments by 1
     let questionNumber = currentQuestionIndex + 1;
     questionElement.innerHTML = questionNumber + ". " + currentQuestion.question;
 
+    // Replaces html answer button placehodlders with the answers from each question
     currentQuestion.answers.forEach(answers => {
         const button = document.createElement("button");
         button.innerHTML = answers.text;
@@ -214,7 +216,7 @@ function showQuestions(){
     });
 }
 
-
+// Resets the quiz page - displays new questions and asnwers and hides the next button until answer is selected
 function resetState(){
     nextButton.style.display = "none";
     while(answerButton.firstChild){
@@ -225,7 +227,7 @@ function resetState(){
 function selectAnswer(e) {
     const selectedButton = e.target;
     const isCorrect = selectedButton.dataset.correct;
-
+// Adds a new class to the answer button selected if it is correct or incorrect, displaying the color associated with that class
     if (isCorrect){
         selectedButton.classList.add("btnCorrect");
         score++; 
@@ -236,12 +238,13 @@ function selectAnswer(e) {
         if(button.dataset.correct){
             button.classList.add("correct");
         }
+        // Disables all buttons once an answer is selected
         button.disabled = true;
     });
     nextButton.style.display = "block";
 }
 
-
+// Next button will show the next question until it has reached the 10th, then will execute the showScore function
 function handleNextButton(){
     currentQuestionIndex++;
     if(currentQuestionIndex < 10){
@@ -261,6 +264,7 @@ nextButton.addEventListener("click", ()=> {
 
 function showScore() {
     playerScore.style.display = "block";
+    // Displays the users name if they have input it at the start. If not "Player 1" will display as default
     if(username.value){
         document.getElementById("playerName").innerHTML = `${username.value}`;
     } else {
@@ -280,14 +284,7 @@ function showScore() {
     }else if (score = 10) {
         playerFeedback = "Wowee! You're a Famous Places genius!";
     }
-    document.getElementById("player-feedback").innerHTML = `${playerFeedback}`;
-
-    if(username.value){
-        document.getElementById("playerName").innerHTML = `${username.value}`;
-    } else {
-        document.getElementById("playerName").innerHTML = `${"Player 1"}`;
-    }
-    
+    document.getElementById("player-feedback").innerHTML = `${playerFeedback}`;    
 }
 
 startQuiz();
