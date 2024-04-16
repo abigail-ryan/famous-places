@@ -176,7 +176,7 @@ body {
   }
 
   /* Results modal pop up window */
-#result-modal .player-results {
+#result-modal .player-feedback {
   /* width: 200px; */
   /* background-color: #00ff05; */
   display: flex;
@@ -185,30 +185,6 @@ body {
   margin: 20px 0 40px;
 }
 
-/* .percentage-container .circular-progress {
-  position: relative;
-  width: 150px;
-  height: 150px;
-  background: conic-gradient(#007aff 3.6deg, rgba(0, 0, 0, 0.1) 0deg);
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
-
-/* .percentage-container .circular-progress::before {
-  content: "";
-  position: absolute;
-  width: 115px;
-  height: 115px;
-  background: white;
-  border-radius: 50%;
-} */
-
-/* .circular-progress .progress-value {
-  position: relative;
-  font-size: 28px;
-} */
 
 .play-again-btn {
   border: 2px solid #a800a5;
@@ -229,7 +205,7 @@ body {
   box-shadow: 0 0 6px 2px #ff840093;
   width: 120px;
   border-radius: 5px;
-  padding: 10px 10px;
+  padding: 10px 8px;
   margin: 10px 0;
   color: black;
   font-weight: 800;
