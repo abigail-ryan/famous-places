@@ -176,7 +176,7 @@ body {
   }
 
   /* Results modal pop up window */
-#result-modal .percentage-container {
+#result-modal .player-results {
   /* width: 200px; */
   /* background-color: #00ff05; */
   display: flex;
@@ -185,7 +185,7 @@ body {
   margin: 20px 0 40px;
 }
 
-.percentage-container .circular-progress {
+/* .percentage-container .circular-progress {
   position: relative;
   width: 150px;
   height: 150px;
@@ -194,21 +194,21 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} */
 
-.percentage-container .circular-progress::before {
+/* .percentage-container .circular-progress::before {
   content: "";
   position: absolute;
   width: 115px;
   height: 115px;
   background: white;
   border-radius: 50%;
-}
+} */
 
-.circular-progress .progress-value {
+/* .circular-progress .progress-value {
   position: relative;
   font-size: 28px;
-}
+} */
 
 .play-again-btn {
   border: 2px solid #a800a5;
@@ -217,7 +217,21 @@ body {
   width: 120px;
   border-radius: 5px;
   padding: 12px 10px;
+  margin: 10px 10px;
   color: white;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.exit-quiz-btn {
+  border: 2px solid #ff8500;
+  background-color: white;
+  box-shadow: 0 0 6px 2px #ff840093;
+  width: 120px;
+  border-radius: 5px;
+  padding: 10px 10px;
+  margin: 10px 0;
+  color: black;
   font-weight: 800;
   text-transform: uppercase;
 }

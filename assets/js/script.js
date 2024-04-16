@@ -151,13 +151,10 @@ const questions = [
     },
 ]
 
-// loads start modal with game rules, player name input and start button 
+// Immediately loads start modal with game rules, optional player name input and start button 
 window.addEventListener("load", function () {
-    // this.setTimeout(
-    //     function open(event) {
             document.getElementById("start-modal").style.display = "block";
         },);
-;
 
 const modal = document.getElementById("start-modal");
 let username = document.getElementById("username");
@@ -270,20 +267,29 @@ function showScore() {
         document.getElementById("playerName").innerHTML = `${"Player 1"}`;
     }
 
-//     const circularProgress = document.getElementsByClassName("circular-progress");
-//     const progressValue = document.getElementsByClassName("progress-value");
-//     let progressStartValue = -1;
-//     let progressEndValue = (score / currentQuestionIndex) * 100;
-//     let speed = 20;
+    
 
-//     let progress = setInterval(() => {
-//         progressStartValue++;
-//         progressValue.innerHTML = `${progressStartValue}%`;
-//         circularProgress.style.background = `conic-gradient(#007aff ${progressStartValue * 3.6deg, rgba(0, 0, 0, 0.1) 0deg)`;
-//         if (progressStartValue == progressEndValue) {
-//             clearInterval(progress);
-//         }
-//     }, speed);
+    // const circularProgress = document.getElementsByClassName("circular-progress");
+    // const progressValues = document.getElementsByClassName("progress-value");
+    // let progressStartValue = -1;
+    // let progressEndValue = (score / currentQuestionIndex) * 100;
+    // let speed = 20;
+    
+    // let progress = setInterval(() => {
+    // for (let i = 0; i < circularProgress.length; i++) {
+    //     progressStartValue++;
+    //     progressValues[i].innerHTML = `${progressStartValue}%`;
+    //     circularProgress[i].style.background = `radial-gradient(#007aff ${progressStartValue} * 3.6deg, rgba(0, 0, 0, 0.1) 0deg)`;
+
+    //     // let progressColor = `hsl(204, 100%, ${50 - (progressStartValue * 2)}%, 1)`;
+    //     // circularProgress[i].style.backgroundImage = `radial-gradient(at 50% 50%, ${progressColor} 0%, rgba(0, 0, 0, 0) ${progressStartValue * 2}%)`;
+
+
+    //     if (progressStartValue == progressEndValue) {
+    //         clearInterval(progress);
+    //     }
+    // }
+    // }, speed);
 }
 
 
