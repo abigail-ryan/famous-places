@@ -261,7 +261,27 @@ nextButton.addEventListener("click", ()=> {
 
 function showScore() {
     playerScore.style.display = "block";
+    if(username.value){
+        document.getElementById("playerName").innerHTML = `${username.value}`;
+    } else {
+        document.getElementById("playerName").innerHTML = `${"Player 1"}`;
+    }
+// Players score out of ten questions
     document.getElementById("player-score-value").innerHTML = `${score} out of ${currentQuestionIndex} correct answers!`;
+
+// Feedback to players based on their score level
+    let playerFeedback;
+    if (score <= 2) {
+        playerFeedback = "It was tricky, right? Dont worry though, you can try again!";
+    } else if (score <= 5) {
+        playerFeedback = "Great effort! You're on the right track.";
+    } else if (score <= 9) {
+        playerFeedback = "Fantastic! You really know your stuff!.";
+    }else if (score = 10) {
+        playerFeedback = "Wowee! You're a Famous Places genius!";
+    }
+    document.getElementById("player-feedback").innerHTML = `${playerFeedback}`;
+
     if(username.value){
         document.getElementById("playerName").innerHTML = `${username.value}`;
     } else {
