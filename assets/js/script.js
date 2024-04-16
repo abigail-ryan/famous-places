@@ -167,6 +167,7 @@ const quizContainerElement = document.getElementsByClassName("quizContainer");
 const circularProgress = document.getElementsByClassName("circular-progress");
 const playerScore = document.getElementById("result-modal");
 
+
 startQuizButton.addEventListener("click", startQuiz);
 
 
@@ -266,9 +267,16 @@ function showScore() {
     } else {
         document.getElementById("playerName").innerHTML = `${"Player 1"}`;
     }
-
-
+    
 }
 
-
 startQuiz();
+
+
+const exitQuizButton = document.getElementById("exit-quiz");
+exitQuizButton.addEventListener("click", function() {
+  modal.style.display = "block";
+  playerScore.style.display = "none";
+  resetState();
+});
+
