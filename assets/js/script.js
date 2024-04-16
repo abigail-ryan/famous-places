@@ -168,15 +168,12 @@ const quizContainerElement = document.getElementsByClassName("quizContainer");
 const circularProgress = document.getElementsByClassName("circular-progress");
 const playerScore = document.getElementById("result-modal");
 
-
 startQuizButton.addEventListener("click", startQuiz);
-
 
 let shuffledQuestions
 
 let currentQuestionIndex = 0;
 let score = 0;
-
 
 function startQuiz(){
     modal.style.display = "none";
@@ -188,9 +185,6 @@ function startQuiz(){
     nextButton.innerHTML = "Next";
     showQuestions();
 }
-
-
-
 
 function showQuestions(){
     resetState();
@@ -288,7 +282,6 @@ function showScore() {
 }
 
 startQuiz();
-
 
 const exitQuizButton = document.getElementById("exit-quiz");
 exitQuizButton.addEventListener("click", function() {
