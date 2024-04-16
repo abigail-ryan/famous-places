@@ -153,11 +153,11 @@ const questions = [
 
 // loads start modal with game rules, player name input and start button 
 window.addEventListener("load", function () {
-    this.setTimeout(
-        function open(event) {
+    // this.setTimeout(
+    //     function open(event) {
             document.getElementById("start-modal").style.display = "block";
-        }, 100);
-});
+        },);
+;
 
 const modal = document.getElementById("start-modal");
 let username = document.getElementById("username");
@@ -167,6 +167,7 @@ const questionElement = document.getElementById("question");
 const answerButton = document.getElementById("answer-buttons");
 const nextButton = document.getElementById("next-btn");
 const quizContainerElement = document.getElementsByClassName("quizContainer");
+const circularProgress = document.getElementsByClassName("circular-progress");
 const playerScore = document.getElementById("result-modal");
 
 startQuizButton.addEventListener("click", startQuiz);
@@ -268,6 +269,21 @@ function showScore() {
     } else {
         document.getElementById("playerName").innerHTML = `${"Player 1"}`;
     }
+
+//     const circularProgress = document.getElementsByClassName("circular-progress");
+//     const progressValue = document.getElementsByClassName("progress-value");
+//     let progressStartValue = -1;
+//     let progressEndValue = (score / currentQuestionIndex) * 100;
+//     let speed = 20;
+
+//     let progress = setInterval(() => {
+//         progressStartValue++;
+//         progressValue.innerHTML = `${progressStartValue}%`;
+//         circularProgress.style.background = `conic-gradient(#007aff ${progressStartValue * 3.6deg, rgba(0, 0, 0, 0.1) 0deg)`;
+//         if (progressStartValue == progressEndValue) {
+//             clearInterval(progress);
+//         }
+//     }, speed);
 }
 
 
