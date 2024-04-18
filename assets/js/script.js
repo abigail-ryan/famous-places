@@ -173,6 +173,7 @@ window.addEventListener("load", function () {
             document.getElementById("start-modal").style.display = "block";
         });
 
+// Global Variables
 const modal = document.getElementById("start-modal");
 let username = document.getElementById("username");
 const startQuizButton = document.getElementById("start-btn");
@@ -191,7 +192,7 @@ let score = 0;
 function startQuiz(){
     modal.style.display = "none";
     playerScore.style.display = "none";
-    // Shuffles the questions for every new game
+    // Shuffles the questions for each time the player starts a new game
     shuffledQuestions = questions.sort(() => Math.random() - 0.5);
     currentQuestionIndex = 0;
     score = 0;
@@ -231,6 +232,7 @@ function resetState(){
     }
 }
 
+// Checks if the selected answer is correct
 function selectAnswer(e) {
     const selectedButton = e.target;
     const isCorrect = selectedButton.dataset.correct;
@@ -248,6 +250,7 @@ function selectAnswer(e) {
         // Disables all buttons once an answer is selected
         button.disabled = true;
     });
+    // Displays the next button
     nextButton.style.display = "block";
 }
 
@@ -277,7 +280,7 @@ function showScore() {
     } else {
         document.getElementById("playerName").innerHTML = `${"Player 1"}`;
     }
-// Players score out of ten questions
+// Players score 
     document.getElementById("player-score-value").innerHTML = `${score} out of ${currentQuestionIndex} correct answers!`;
 
 // Feedback to players based on their score level
@@ -296,6 +299,7 @@ function showScore() {
 
 startQuiz();
 
+// Exits quiz loop - brings user back to start modal
 const exitQuizButton = document.getElementById("exit-quiz");
 exitQuizButton.addEventListener("click", function() {
   modal.style.display = "block";
