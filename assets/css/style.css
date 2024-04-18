@@ -1,3 +1,12 @@
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+/* Asterisk wildcard selector added to overide default browser styles */
+* {
+  font-family: 'Nunito', sans-serif;
+}
+
 body {
   padding: 0;
   margin: 0;
@@ -53,7 +62,6 @@ body {
 }
 
 .modal-content , .modal-container {
-  font-size: 18px;
   font-weight: bold;
   text-align: center;
   position: absolute;
@@ -84,6 +92,9 @@ body {
 }    
   
 .quizContainer {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center; 
   width: 800px;
   max-width: 80%;
   background-color: white;
