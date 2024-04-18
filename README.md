@@ -109,9 +109,9 @@ ___
 
 #### Structure
 
-*	A large heading with the game name “Famous Places”, will be at the top of the page, with an icon of a globe/location pin.
+*	A large heading with the game name “Famous Places” will be at the top of the page.
 *	A clear and short introduction to the game rules will be displayed to the user, to inform them how to play.
-*	A clear call to action “start” button will be displayed underneath the rules to prompt the player to start the game,
+*	A clear call to action “start” button will be displayed underneath the rules to prompt the player to start the game.
 *	The game will display large images with a question and multiple choice answers to test the players knowledge.
 *	The answer buttons on the site must provide feedback to the player, in the form of a colour change to green for correct, and red for incorrect.
 *	The next button will take the player to the next question.
@@ -120,8 +120,8 @@ ___
 #### Skeleton
 
 *	The layout and design of the quiz must be clean, and very minimal to avoid distraction.
-*	Upon loading, the landing page will display an icon and a large heading.
-*	Below that, a small image of a compass along with the game rules, with a start button underneath allowing the player to start the quiz when ready. This will be displayed on a ‘tile’ background that is centred on the page.
+*	Upon loading, the landing page will display a large heading.
+*	Below that, a short description of the game rules, with a start button underneath allowing the player to start the quiz when ready. This will be displayed on a ‘tile’ background that is centred on the page.
 *	The player will be taken to the first question, which will have a large image of a famous monument/building, along with a question, and 4 possible answers. This will be displayed on a ‘tile’ that is centred on the page.
 *	The “next” button will be displayed after the player selects an answer.
 *	The results page will show the player a tally of their score. Again this will be displayed again on a ‘tile’ background that is centred on the page.
@@ -132,7 +132,6 @@ ___
 <br>
 
 ![Screenshot of Famous Places mobile view wireframe](documentation/famous_places_wireframes_mobileview.PNG)
-
 </details>
 
 <details>
@@ -146,7 +145,33 @@ ___
 ![Screenshot of Famous Places desktop view wireframe - results](documentation/famous_places_wireframes_results_desktopview.PNG)
 </details>
 
+<details>
+<summary>From wireframe concept to final product</summary>
+<br>
+
+The overall design for my quiz has mostly remained the same as my wireframe layout, with some slight changes as mentioned below:
+
+Mobile view:
+* The answer buttons are stacked in a column for mobile devices to allow enough room for longer answers.
+
+Mobile & Desktop view:
+* I created the landing page as a modal window, and which takes over the screen before the game can be started. The game only starts when the user clicks the start button.
+* The landing page image concept has been removed as it was causing overcrowding, especially on mobile devices.
+* An input field has been added on the modal window for the player to input their name before starting the quiz. 
+* I also created the results page as a modal window.
+* The players name is used to give personalisation on the results page. If the player doesn’t input their name on the start page, the default “Player 1” will be displayed on the results window.
+* I added a feedback statement based on the users results; giving encouragement to try again for low scores, and congratulations for high scores
+* An exit quiz button was added to allow players to exit out of the quiz loop back to the start screen.
+</details>
+
 #### Surface 
+
+* It was important to keep the design of the quiz clean and fresh.
+* The background ‘tiles’ were kept white, to allow the images stand out and be the focus.
+* The answer buttons were styled with pops of color inspired by the background image, for a bring fun feel for the game. 
+* The player receives immediate feedback on their answers. The selected button changes color to indicate correct or incorrect answers. 
+* The player recieves their final score at the end of the quiz, with a feedback message depending on their score level.
+* The player has the option to play the quiz again or exit back to the start screen.
 
 ___
 
