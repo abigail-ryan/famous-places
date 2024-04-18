@@ -79,8 +79,8 @@ body {
   padding: 10px 10px;
   margin-top: 15px;
   color: white;
+  font-size: 16px;
   font-weight: 800;
-  font-size: 15px;
   text-transform: uppercase;
 }
 
@@ -130,6 +130,7 @@ body {
   border-radius: 5px;
   padding: 12px 10px;
   color: black;
+  font-size: 16px;
   font-weight: 800;
 }
 
@@ -156,6 +157,7 @@ body {
   border-radius: 5px;
   padding: 12px 10px;
   color: white;
+  font-size: 16px;
   font-weight: 800;
   text-transform: uppercase;
   display: none;
@@ -180,11 +182,12 @@ body {
   border: 2px solid #a800a5;
   background-color: #ff00fa;
   box-shadow: 0 0 6px 2px #a7a6a6;
-  width: 120px;
+  width: 130px;
   border-radius: 5px;
   padding: 12px 10px;
   margin: 10px 10px;
   color: white;
+  font-size: 16px;
   font-weight: 800;
   text-transform: uppercase;
 }
@@ -198,6 +201,7 @@ body {
   padding: 10px 8px;
   margin: 10px 0;
   color: black;
+  font-size: 16px;
   font-weight: 800;
   text-transform: uppercase;
 }
