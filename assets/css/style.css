@@ -70,7 +70,7 @@ body {
   transform: translate(-50%, -50%);
 }
 
-.start-button {
+.start-btn {
   border: 2px solid #a800a5;
   background-color: #ff00fa;
   box-shadow: 0 0 6px 2px #a7a6a6;
@@ -84,7 +84,7 @@ body {
   text-transform: uppercase;
 }
 
-.start-button:hover {
+.start-btn:hover {
   border: 2px solid #a800a5;
   background-color: #a800a5;
   box-shadow: 0 0 6px 2px #ff00fa;

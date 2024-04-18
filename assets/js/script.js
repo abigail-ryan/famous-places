@@ -175,7 +175,7 @@ window.addEventListener("load", function () {
 
 const modal = document.getElementById("start-modal");
 let username = document.getElementById("username");
-const startQuizButton = document.getElementById("start-button");
+const startQuizButton = document.getElementById("start-btn");
 const questionElement = document.getElementById("question");
 const answerButton = document.getElementById("answer-buttons");
 const nextButton = document.getElementById("next-btn");

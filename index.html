@@ -18,10 +18,9 @@
 </head>
 
 <body>
-  <!-- Temporararily comment out all quiz and start modal code while setting up showScore functions -->
   <!-- Quiz Page -->
   <div class="quizContainer">
-    <div id="question-container" class="hide"></div>
+    <div id="question-container"></div>
     <div id="quiz-img" class="imgContainer"></div>
     <div id="question">Question</div>
     <div id="answer-buttons" class="btn-grid">
@@ -31,7 +30,7 @@
       <button class="btn">Answer 4</button>
     </div>
     <div class="footer">
-      <button id="next-btn" class="next-btn hide">Next</button>
+      <button id="next-btn" class="next-btn">Next</button>
     </div>
   </div>
 
@@ -44,28 +43,27 @@
         <h2>Games Rules:</h2>
         <p>The game is simple, we show you some Famous Places along with a tricky question, and you guess the correct
           answer!</p>
-        <p>Enter your name and click start to play.<br>
+          <br>
+        <p>Enter your name and click start to play.</p>
           <!-- Optional enter name for personalisation -->
           <form class="modal-form" method="dialog" autocomplete="off">
-            <label for="username" aria-label="Enter optional username"></label><br>
+            <label for="username" aria-label="Enter optional username"></label>
             <input type="text" id="username" name="username" placeholder="(optional)" minlength="2" maxlength="10"><br>
-            <button type="submit" id="start-button" class="start-button">Start</button>
+            <button type="submit" id="start-btn" class="start-btn">Start</button>
           </form>
       </div>
     </div>
   </div>
 
-
   <!-- Modal window pop up: displays player results and message -->
   <div id="result-modal" class="modal">
     <div class="modal-background">
       <div class="modal-content">
-        <h1 id="playerName">Player 1<span></span>!</h1>
+        <h1 id="playerName">Player 1</h1>
+        <!-- Player results shown along with feedback based on score level -->
         <div class="win-scores">
           You scored:<br>
           <span class="player-score" id="player-score-value">00</span><br>
-          </p>
-          <!-- Player results shown along with feedback based on score level -->
           <div class="player-feedback">
             <p id="player-feedback">Player feedback placeholder</p>
           </div>
@@ -74,7 +72,6 @@
         <button type="submit" class="exit-quiz-btn" id="exit-quiz">Exit Quiz</button>
       </div>
     </div>
-  </div>
   </div>
 
   <!-- JavaScript file -->
