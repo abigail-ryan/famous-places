@@ -1,3 +1,4 @@
+
 // Questions array
 const questions = [
     {
@@ -165,27 +166,24 @@ const questions = [
             { text : "233", correct : true},
         ]
     },
-]
+];
 
 // Immediately loads start modal with game rules, optional player name input and start button 
 window.addEventListener("load", function () {
             document.getElementById("start-modal").style.display = "block";
-        },);
+        });
 
 const modal = document.getElementById("start-modal");
 let username = document.getElementById("username");
-const startQuizButton = document.getElementById("start-button")
-const quizImages = document.getElementById("quiz-img")
+const startQuizButton = document.getElementById("start-button");
 const questionElement = document.getElementById("question");
 const answerButton = document.getElementById("answer-buttons");
 const nextButton = document.getElementById("next-btn");
-const quizContainerElement = document.getElementsByClassName("quizContainer");
-const circularProgress = document.getElementsByClassName("circular-progress");
 const playerScore = document.getElementById("result-modal");
 
 startQuizButton.addEventListener("click", startQuiz);
 
-let shuffledQuestions
+let shuffledQuestions;
 
 let currentQuestionIndex = 0;
 let score = 0;
@@ -194,7 +192,7 @@ function startQuiz(){
     modal.style.display = "none";
     playerScore.style.display = "none";
     // Shuffles the questions for every new game
-    shuffledQuestions = questions.sort(() => Math.random() - .5)
+    shuffledQuestions = questions.sort(() => Math.random() - 0.5);
     currentQuestionIndex = 0;
     score = 0;
     nextButton.innerHTML = "Next";
@@ -269,7 +267,7 @@ nextButton.addEventListener("click", ()=> {
     } else {
         startQuiz();
     }
-})
+});
 
 function showScore() {
     playerScore.style.display = "block";
@@ -290,7 +288,7 @@ function showScore() {
         playerFeedback = "Great effort! You're on the right track.";
     } else if (score <= 9) {
         playerFeedback = "Fantastic! You really know your stuff!.";
-    }else if (score = 10) {
+    }else if (score == 10) {
         playerFeedback = "Wowee! You're a Famous Places genius!";
     }
     document.getElementById("player-feedback").innerHTML = `${playerFeedback}`;    
