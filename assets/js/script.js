@@ -2,6 +2,7 @@
 const questions = [
     {
         image : "assets/images/abu-simbel-temples-egypt.jpg",
+        imageAlt : "Ancient Temple",
         question : "Representing the birth and coronation of King Ramses II, this is...",
         answers : [
             { text : "Mount Rushmore", correct : false},
@@ -12,6 +13,7 @@ const questions = [
     },
     {
         image : "assets/images/big-ben-london.jpg",
+        imageAlt : "Famous Clock Tower",
         question : "This famous clock tower is...",
         answers : [
             { text : "The Rajabai Clock Tower ", correct : false},
@@ -22,6 +24,7 @@ const questions = [
     },
     {
         image : "assets/images/burj-khalifa-dubai.jpg",
+        imageAlt : "Burj Khalifa, worlds tallest building",
         question : "The Burj Khalifa, the worlds tallest structure can be found in...",
         answers : [
             { text : "Dubai", correct : true},
@@ -32,6 +35,7 @@ const questions = [
     },
     {
         image : "assets/images/cliffs-of-moher-ireland.jpg",
+        imageAlt : "Famous Cliff Edge",
         question : "This famous cliff edge is...",
         answers : [
             { text : "White Cliffs of Dover", correct : false},
@@ -42,6 +46,7 @@ const questions = [
     },
     {
         image : "assets/images/colosseum-rome.jpg",
+        imageAlt : "Largest Amphitheatre ever built",
         question : "The largest ancient amphitheatre ever built is...",
         answers : [
             { text : "The Pula Arena", correct : false},
@@ -52,6 +57,7 @@ const questions = [
     },
     {
         image : "assets/images/death_valley_desert-cali.jpg",
+        imageAlt : "Desert road",
         question : "Thought to be the hottest place on Earth during summer, which desert is this?",
         answers : [
             { text : "Gobi Desert", correct : false},
@@ -62,6 +68,7 @@ const questions = [
     },
     {
         image : "assets/images/eiffel_tower_paris.jpg",
+        imageAlt : "Eiffel Tower",
         question : "Requiring 60 tons of paint every seven years to prevent it from rusting, The Eiffel Tower can be found in which city?",
         answers : [
             { text : "Perth", correct : false},
@@ -72,6 +79,7 @@ const questions = [
     },
     {
         image : "assets/images/grand-canyon-arizona.jpg",
+        imageAlt : "Desert Canyon",
         question : "In 1909, which of these famous canyons was the site of an Ancient Egyptian artifacts hoax?",
         answers : [
             { text : "The Grand Canyon of Yellowstone", correct : false},
@@ -82,6 +90,7 @@ const questions = [
     },
     {
         image : "assets/images/pyramids-of-giza-egypt.jpg",
+        imageAlt : "Great Pyramids of Giza",
         question : "Which is not one of the Great Pyraminds of Giza?",
         answers : [
             { text : "Pyramid of Cheops", correct : false},
@@ -92,7 +101,8 @@ const questions = [
     },
     {
         image : "assets/images/sagrada-familia-barcelona.jpg",
-        question : "The largest unfinished Church in the world is...?",
+        imageAlt : "Unfinished Cathedral",
+        question : "The largest unfinished Catherdal in the world is...?",
         answers : [
             { text : "Sagrada Família", correct : true},
             { text : "Notre Dame", correct : false},
@@ -102,6 +112,7 @@ const questions = [
     },
     {
         image : "assets/images/statue-of-liberty-new-york.jpg",
+        imageAlt : "Statue of Liberty",
         question : "Lady Liberty is struck by lightning how many times every year?",
         answers : [
             { text : "Around 10 times", correct : false},
@@ -112,6 +123,7 @@ const questions = [
     },
     {
         image : "assets/images/taj-mahal-india.jpg",
+        imageAlt : "Taj Mahal",
         question : "Who did the Mughal Emperor Shah Jahan build the Taj Mahal in memory of?",
         answers : [
             { text : "His mother", correct : false},
@@ -122,6 +134,7 @@ const questions = [
     },
     {
         image : "assets/images/the-great-wall-china.jpg",
+        imageAlt : "Great Wall of China",
         question : "The Great Wall of China was built by which Dynasty?",
         answers : [
             { text : "Ming dynasty", correct : false},
@@ -132,6 +145,7 @@ const questions = [
     },
     {
         image : "assets/images/the-louvre-paris.jpg",
+        imageAlt : "The Louvre",
         question : "The Mona Lisa is the most famous art piece in The Louvre. What is the most valuable?",
         answers : [
             { text : "The Ain Ghazal Statue", correct : false},
@@ -142,6 +156,7 @@ const questions = [
     },
     {
         image : "assets/images/the-sydney-opera-house-australia.jpg",
+        imageAlt : "Sydney Opera House",
         question : "In an international design competition held in 1956, how many designs were submitted for the Sydney Opera House?",
         answers : [
             { text : "8", correct : false},
@@ -190,7 +205,7 @@ function showQuestions(){
     resetState();
 // Gets the current question and answers set as well as the associated image
     let currentQuestion = questions[currentQuestionIndex];
-    document.getElementById('quiz-img').innerHTML = `<img src="${currentQuestion.image}">`;
+    document.getElementById('quiz-img').innerHTML = `<img src="${currentQuestion.image}" alt="${currentQuestion.imageAlt}">`;
     
     // Shows the question number beside the question, increments by 1
     let questionNumber = currentQuestionIndex + 1;
