@@ -71,6 +71,10 @@ body {
   transform: translate(-50%, -50%);
 }
 
+.modal-content > img {
+  width: 200px;
+}
+
 .start-btn {
   border: 2px solid #a800a5;
   background-color: #ff00fa;
