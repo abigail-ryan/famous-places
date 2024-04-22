@@ -282,12 +282,12 @@ body {
 
   .modal-content {
     max-width: 60%;
-    height: 425px;
+    height: 445px;
   }
 
   .modal-container {
     max-width: 70%;
-    height: 480px;
+    height: 500px;
   }
 }
 
@@ -295,11 +295,9 @@ body {
 @media (min-width: 1440px) {
   .modal-content {
    max-width: 35%;
-   height: 425px;
   }
     
   .modal-container {
     max-width: 40%;
-    height: 480px;
     }
 }
