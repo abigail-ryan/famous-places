@@ -57,7 +57,7 @@ const questions = [
         ]
     },
     {
-        image : "assets/images/death_valley_desert-cali.jpg",
+        image : "assets/images/death-valley-desert-cali.jpg",
         imageAlt : "Desert road",
         question : "Thought to be the hottest place on Earth during summer, which desert is this?",
         answers : [
@@ -68,7 +68,7 @@ const questions = [
         ]
     },
     {
-        image : "assets/images/eiffel_tower_paris.jpg",
+        image : "assets/images/eiffel-tower-paris.jpg",
         imageAlt : "Eiffel Tower",
         question : "Requiring 60 tons of paint every seven years to prevent it from rusting, The Eiffel Tower can be found in which city?",
         answers : [
