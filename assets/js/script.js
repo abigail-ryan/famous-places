@@ -176,21 +176,17 @@ window.addEventListener("load", function () {
 
 
 
-        // Get the game rules 
+// Game rules modal
 var rulesModal = document.getElementById("rulesModal");
-
-// Get the button that opens the modal
+// Game rules button
 var btn = document.getElementById("game-rules-btn");
-
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
-
-// When the user clicks the button, open the modal 
+// Open the game rules modal 
 btn.onclick = function() {
   rulesModal.style.display = "block";
 }
-
-// When the user clicks on <span> (x), close the modal
+// Close the game rules modal when user clicks on x
 span.onclick = function() {
   rulesModal.style.display = "none";
 }
@@ -327,6 +323,7 @@ const exitQuizButton = document.getElementById("exit-quiz");
 exitQuizButton.addEventListener("click", function() {
   modal.style.display = "block";
   playerScore.style.display = "none";
+  document.getElementById("username").value = "";
   resetState();
 });
 
