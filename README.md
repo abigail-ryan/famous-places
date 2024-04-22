@@ -155,13 +155,11 @@ Mobile view:
 * The answer buttons are stacked in a column for mobile devices to allow enough room for longer answers.
 
 Mobile & Desktop view:
-* I created the landing page as a modal window, and which takes over the screen before the game can be started. The game only starts when the user clicks the start button.
-* The landing page image concept has been removed as it was causing overcrowding, especially on mobile devices.
-* An input field has been added on the modal window for the player to input their name before starting the quiz. 
-* I also created the results page as a modal window.
+* The game rules have been placed in a modal pop up, underneath the start image. This allows room for the short paragraph instructing the user to input their username.
+* An input field has been added on the start modal for the player to input their name before starting the quiz. This is optional.
 * The players name is used to give personalisation on the results page. If the player doesn’t input their name on the start page, the default “Player 1” will be displayed on the results window.
 * I added a feedback statement based on the users results; giving encouragement to try again for low scores, and congratulations for high scores
-* An exit quiz button was added to allow players to exit out of the quiz loop back to the start screen.
+* An exit quiz button was added to allow players to exit out of the quiz loop back to the start window.
 </details>
 
 #### Surface 
