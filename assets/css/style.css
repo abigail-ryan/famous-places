@@ -280,12 +280,12 @@ body {
 /* Media query for screens larger than 1440px */
 @media (min-width: 1440px) {
   .modal-content {
-   max-width: 45%;
-   height: 380px;
+   max-width: 35%;
+   height: 425px;
   }
     
   .modal-container {
-    max-width: 50%;
+    max-width: 40%;
     height: 480px;
     }
 }
