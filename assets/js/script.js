@@ -168,10 +168,41 @@ const questions = [
     },
 ];
 
-// Immediately loads start modal with game rules, optional player name input and start button 
+// Immediately loads start modal with game rules button, optional player name input and start button 
 window.addEventListener("load", function () {
             document.getElementById("start-modal").style.display = "block";
+            document.getElementById("rulesModal").style.display = "none";
         });
+
+
+
+        // Get the game rules 
+var rulesModal = document.getElementById("rulesModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("game-rules-btn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  rulesModal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  rulesModal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == rulesModal) {
+    rulesModal.style.display = "none";
+  }
+}
+
+
 
 // Global Variables
 const modal = document.getElementById("start-modal");

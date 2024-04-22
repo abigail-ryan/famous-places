@@ -22,7 +22,7 @@ body {
   background-size: cover;
   }
 
-/* Game rules start modal pop up window */
+/* Start modal window */
 .modal {
   position: absolute;
   top: 50%;
@@ -73,6 +73,49 @@ body {
 
 .modal-content > img {
   width: 200px;
+}
+
+/* Game rules modal */
+.rules-modal {
+  display: flex;
+  position: fixed; 
+  justify-content: center;
+  align-items: center;
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  align-content: center;
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.4); 
+}
+
+.game-rules {
+  background-color: #fefefe;
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid #888;
+  text-align: left;
+}
+
+.game-rules ul {
+  padding-left: 12px;
+}
+
+/* Game rules close button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 .start-btn {
@@ -225,7 +268,7 @@ body {
 
   .modal-content {
     max-width: 60%;
-    height: 380px;
+    height: 425px;
   }
 
   .modal-container {
