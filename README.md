@@ -178,7 +178,7 @@ ___
 
 With the idea to keep the design clean and fresh I chose my color pallete based on the images I had sourced for my questions. As my questions imagery has quite a strong blue presence, I chose bright contrasting colors similar to the background question-mark image. I also chose a vibrant green for indicating the correct answer, as well as a strong red to indicate incorrect answers.
 
-![Screenshot of Famous Places color palette](documentation/famous-places-color-pallete.PNG)
+![Screenshot of Famous Places color palette](documentation/famous-places-color-pallete.png)
 
 I tested these colours out in Uizard to see a how I liked the color pairing.
 
