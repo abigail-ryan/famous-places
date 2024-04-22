@@ -22,6 +22,7 @@ body {
   background-size: cover;
   }
 
+ /* Code for start, game rules and results modals adapted for this project from https://www.w3schools.com/howto/howto_css_modals.asp */
 /* Start modal window */
 .modal {
   position: absolute;
@@ -132,6 +133,7 @@ body {
   cursor: pointer;
 }
 
+/* Start quiz button */
 .start-btn {
   border: 2px solid #a800a5;
   background-color: #ff00fa;
@@ -152,7 +154,8 @@ body {
   box-shadow: 0 0 6px 2px #ff00fa;
   color: white;
 }    
-  
+ 
+/* Code for quiz display and styling adapted for this project from GreatStack - https://www.youtube.com/watch?v=PBcqGxrr9g8 */ 
 .quizContainer {
   font-size: 18px;
   font-weight: bold;

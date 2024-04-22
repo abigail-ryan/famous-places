@@ -1,5 +1,5 @@
 
-// Questions array
+// Questions array - adapted for this project from GreatStack - https://www.youtube.com/watch?v=PBcqGxrr9g8
 const questions = [
     {
         image : "assets/images/abu-simbel-temples-egypt.jpg",
@@ -167,6 +167,7 @@ const questions = [
         ]
     },
 ];
+// Code for start, game rules and results modals functions adapted for this project from https://www.w3schools.com/howto/howto_css_modals.asp 
 
 // Immediately loads start modal with game rules button, optional player name input and start button 
 window.addEventListener("load", function () {
@@ -208,6 +209,7 @@ let shuffledQuestions;
 let currentQuestionIndex = 0;
 let score = 0;
 
+/* Code for quiz functions studied and adapted for this project from GreatStack - https://www.youtube.com/watch?v=PBcqGxrr9g8 */ 
 function startQuiz(){
     modal.style.display = "none";
     playerScore.style.display = "none";
@@ -293,6 +295,7 @@ nextButton.addEventListener("click", ()=> {
 
 function showScore() {
     playerScore.style.display = "block";
+    // Code adapted from if else lessons in Code Institute LMS
     // Displays the users name if they have input it at the start. If not "Player 1" will display as default
     if(username.value){
         document.getElementById("playerName").innerHTML = `${username.value}`;
@@ -302,7 +305,7 @@ function showScore() {
 // Players score 
     document.getElementById("player-score-value").innerHTML = `${score} out of ${currentQuestionIndex} correct answers!`;
 
-// Feedback to players based on their score level
+// Feedback to players based on their score level 
     let playerFeedback;
     if (score <= 2) {
         playerFeedback = "It was tricky, right? Dont worry though, you can try again!";
