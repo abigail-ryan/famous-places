@@ -204,6 +204,18 @@ I also ran my colour pairings through Contrast Checker to check for color contra
 ![Screenshot of Famous Places contrast checker 4](documentation/contrast-checker-4.PNG)
 </details>
 
+#### Typography
+
+I used Font Joy to search for a font pairing that I liked. I chose to use only one font, “Nunito”, across the entire site as I liked the fun character to the lettering, and felt it suited the overall feel of the quiz. I used Google Fonts to import this. 
+
+![Screenshot of font](documentation/famous-places-font.png)
+
+#### Imagery
+
+It was important to me that the imagery used within the quiz was very vibrant and had strong colors, as I wanted to create a clean look to body of the quiz, while the focus and attention was on the images and quiz questions. 
+
+All images used throughout Famous Places were sourced from pixabay.com, unsplash.com and freepik.com. Attributions to each photographer and source are placed in the Credits section of this README.
 
 
+___
 
