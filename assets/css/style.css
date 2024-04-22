@@ -15,7 +15,7 @@ body {
   height: 100vh;
   justify-content: center;
   align-items: center;
-  background-image: url(../images/famous_places_background_img.jpg);
+  background-image: url(../images/famous-places-background-img.jpg);
   backdrop-filter: brightness(0.5);
   background-position: center;
   background-repeat: no-repeat;
