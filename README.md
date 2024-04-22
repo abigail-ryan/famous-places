@@ -131,18 +131,18 @@ ___
 <summary>Mobile</summary>
 <br>
 
-![Screenshot of Famous Places mobile view wireframe](documentation/famous_places_wireframes_mobileview.PNG)
+![Screenshot of Famous Places mobile view wireframe](documentation/famous-places-wireframes-mobileview.PNG)
 </details>
 
 <details>
 <summary>Desktop</summary>
 <br>
 
-![Screenshot of Famous Places desktop view wireframe - index page](documentation/famous_places_wireframes_gamerules_desktopview.PNG)
+![Screenshot of Famous Places desktop view wireframe - index page](documentation/famous-places-wireframes-gamerules-desktopview.PNG)
 
-![Screenshot of Famous Places desktop view wireframe - quiz page](documentation/famous_places_wireframes_quiz_desktopview.PNG)
+![Screenshot of Famous Places desktop view wireframe - quiz page](documentation/famous-places-wireframes-quiz-desktopview.PNG)
 
-![Screenshot of Famous Places desktop view wireframe - results](documentation/famous_places_wireframes_results_desktopview.PNG)
+![Screenshot of Famous Places desktop view wireframe - results](documentation/famous-places-wireframes-results-desktopview.PNG)
 </details>
 
 <details>
@@ -180,7 +180,7 @@ ___
 
 With the idea to keep the design clean and fresh I chose my color pallete based on the images I had sourced for my questions. As my questions imagery has quite a strong blue presence, I chose bright contrasting colors similar to the background question-mark image. I also chose a vibrant green for indicating the correct answer, as well as a strong red to indicate incorrect answers.
 
-![Screenshot of Famous Places color palette](documentation/famous_places_color_pallete.PNG)
+![Screenshot of Famous Places color palette](documentation/famous-places-color-pallete.PNG)
 
 I tested these colours out in Uizard to see a how I liked the color pairing.
 
@@ -188,7 +188,7 @@ I tested these colours out in Uizard to see a how I liked the color pairing.
 <summary>Color pairing test</summary>
 <br>
 
-![Screenshot of Famous Places color palette test in Uizard](documentation/famous_places_color_pallete_test.PNG)
+![Screenshot of Famous Places color palette test in Uizard](documentation/famous-places-color-pallete-test.PNG)
 </details>
 
 
@@ -200,10 +200,10 @@ I also ran my colour pairings through Contrast Checker to check for color contra
 <summary>Color Contrast Checker</summary>
 <br>
 
-![Screenshot of Famous Places contrast checker 1](documentation/contrast_checker_1.PNG)
-![Screenshot of Famous Places contrast checker 2](documentation/contrast_checker_2.PNG)
-![Screenshot of Famous Places contrast checker 3](documentation/contrast_checker_3.PNG)
-![Screenshot of Famous Places contrast checker 4](documentation/contrast_checker_4.PNG)
+![Screenshot of Famous Places contrast checker 1](documentation/contrast-checker-1.PNG)
+![Screenshot of Famous Places contrast checker 2](documentation/contrast-checker-2.PNG)
+![Screenshot of Famous Places contrast checker 3](documentation/contrast-checker-3.PNG)
+![Screenshot of Famous Places contrast checker 4](documentation/contrast-checker-4.PNG)
 </details>
 
 
