@@ -4,7 +4,7 @@
 Famous Places is an online interactive quiz for teens and adults to test their knowledge of famous landmarks throughout the world.
 Users of this site can play the multiple- choice quiz, with immediate feedback, and view their scores at the end.
 
-![Screenshot of Famous Places responsive design through Am I responsive website](documentation/)
+![Screenshot of Famous Places responsive design through Am I responsive website](documentation/responsive-screenshot.png)
 
 ## Contents
 * [User Stories](#user-stories)
