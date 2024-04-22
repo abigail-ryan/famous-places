@@ -91,6 +91,20 @@ body {
   background-color: rgba(0,0,0,0.4); 
 }
 
+#game-rules-btn {
+  border: 2px solid #0154ad;
+  background-color: white;
+  box-shadow: 0 0 2px 1px #007aff;
+  width: 175px;
+  border-radius: 5px;
+  padding: 6px;
+  margin-top: 8px;
+  color: #0154ad;
+  font-size: 12px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
 .game-rules {
   background-color: #fefefe;
   margin: 10px;
