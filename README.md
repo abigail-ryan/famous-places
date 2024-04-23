@@ -38,6 +38,7 @@ Users of this site can play the multiple- choice quiz, with immediate feedback, 
    * [Frameworks, Libraries, Technologies and Programs used](#frameworks-libraries-technologies-and-programs-used)
 * [Testing](#testing)
   * [Manual Testing](#manual-testing)
+  * [Bugs](#bugs)
   * [Validation and Lighthouse Testing](#validation-and-lighthouse-testing)
 * [Deployment](#deployment) 
 * [Forking the GitHub Repository](#forking-the-github-repository)
@@ -317,6 +318,7 @@ ___
 ### Testing
 #### Manual Testing
 
+My goal for this project was to create a fun and interactive quiz that users could enjoy playing on mobile devices primarily, but could also access on various devices with larger screen sizes. I used Chrome Dev Tools to view Famous Places on various screen sizes through my entire project and ensure a responsive design. The browsers used were:
 The browsers used were:
 *	Chrome
 *	Opera
@@ -330,6 +332,61 @@ I deployed my site early in the development process to test on real-world device
 *	Apple iPad 2018
 
 The results of feature testing are as follows:
+
+* Start Modal
+
+| Feature | Expected Action | Pass/Fail |
+| ---| ---| ---|
+| Start Modal | Appears on load, displaying game name and tagline, image, game rules, username input and start button | Pass |
+| Start Modal | Users cannot click anywhere outside start modal to start the quiz | Pass |
+| Game Rules Button | When user clicks "View Game Rules" button, game rules modal pops up to display the rules of the game | Pass |
+| Game Rules Modal | Users must click the "x" to close the rules modal. Modal cannot be closed when clicking anywhere else on the screen | Pass |
+| Username Input | Requires a minimum of 2 characters | Fail |
+| Username Input | Users can input a name up to max 10 characters | Pass |
+| Start Buttion | Starts the quiz and hides the start modal | Pass |
+<br>
+
+* Quiz
+
+| Feature | Expected Action | Pass/Fail |
+| ---| ---| ---|
+| Quiz page | Start modal is hidden, then page displays quiz image, questions and 4 multiply choice answers | Pass |
+| Quiz Questions | Corresponding image, question, and answers set are displayed | Pass |
+| Quiz Questions | Question set is displayed randomly for each new game | Pass |
+| Quiz Questions | Quiz runs through 10 question sets, from a possible 15 | Pass |
+| Question Number | Question number is displayed at start of question and increments by 1 for each question | Pass |
+| Answer Buttons | Incorrect answer buttons turn red for incorrect answers | Pass |
+| Answer Buttons | Correct answer buttons turn green for correct answers | Pass |
+| Answer Buttons | All buttons are disable once an answer has been selected | Pass |
+| Next Button | "Next" button is hidden by default | Pass |
+| Next Button | "Next" button only displays after an answer is selected | Pass |
+| Next Button | "Next" button takes the user to the next question set | Pass |
+<br>
+
+* Results Modal
+
+| Feature | Expected Action | Pass/Fail |
+| ---| ---| ---|
+| Results Modal | Results modal is display when the users has reached the end of the quiz | Pass |
+| Player Name | Player name is displayed as "Player 1" by default if a player does not input their username | Pass |
+| Player Name | Player name is displayed as the value entered if a player does input their username | Pass |
+| Player Score | Player score shows the number of correct answers out of 10  | Pass |
+| Player Feedback | Displays a message based on the users score level | Pass |
+| Play Again Button | Continues the game loop and brings the user back to the first question | Pass |
+| Play Again Function | Keeps the username - if entered. Otherwise keeps default "Player 1" | Pass |
+| Exit quiz Button | Exits out of the game loop. Brings the user back to the start modal. Username input field is reset | Pass |
+
+
+
+#### Bugs
+* Start Modal
+
+| Feature | Expected Action | Pass/Fail |
+| ---| ---| ---|
+| Username Input | Requires a minimum of 2 characters | Fail |
+
+The form input field fails to require a user to input a minimum of 2 characters for a username. This fail is possibly due to the fact that I have allowed inputting a username to be optional, rather than required. I prefer to keep the username input optional, however I will look into a solution to this minlenght issue for future projects.
+
 
 #### Validation and Lightouse Testing
 
