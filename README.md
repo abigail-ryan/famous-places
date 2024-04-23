@@ -373,3 +373,39 @@ The lighthouse performance score for mobile is significantly lower than on deskt
 </details>
 
 ___
+
+### Deployment
+GitHub was used to deploy the Mindful Habit website. 
+1.	Login to your GitHub account
+2.	Navigate to the project repository, [abigail-ryan/famous-places](https://github.com/abigail-ryan/famous-places)
+3.	Click the Settings button near the top of the page.
+4.	On the left-hand side, click on the Pages button
+5.	In the Source section, choose 'main' from the drop-down, select branch menu
+6.	Select 'root' from the drop-down folder menu
+7.	Click 'Save' and after a few minutes the project will be live and a link will be visible at the top of the page
+
+### Forking the GitHub Repository
+By forking the GitHub repository you can make a copy of the original repository to your own GitHub account. You can view and make changes to this copy, without affecting the original repository.
+Use the following steps to copy a repository:
+1.	Log in to your GitHub account or sign up.
+2.	Navigate to the GitHub Repository of this project, [abigail-ryan/famous-places](https://github.com/abigail-ryan/famous-places)
+3.	At the top right of the Repository, just below your profile picture, find the "Fork" button.
+4.	You should now have a copy of the original repository in your own GitHub account.
+5.	Changes made to the forked repository can be merged with the original repository via a pull request.
+
+### Clone the GitHub Repository
+You can create a local copy of this repository by cloning a GitHub Repository, on your computer. This will allow local edits, rather than directly in the source files of the original repository, 
+Use following steps to make a clone:
+1.	Log in to your GitHub account or sign up.
+2.	Navigate to the GitHub Repository of this project, [abigail-ryan/famous-places](https://github.com/abigail-ryan/famous-places)
+3.	Above the list of files, click on the dropdown item called "Code".
+4.	To clone the repository using HTTPS, copy the link under "HTTPS".
+5.	Open Git Bash.
+6.	Change the current working directory to the location where you want the cloned directory to be made.
+7.	Type git clone, and then paste the URL you copied in Step 4.
+8.	Finally, press Enter. Your local clone has now been created.
+
+
+Changes made on the cloned repository can be pushed to the upstream repository directly if you have a write access for the repository. Otherwise, the changes made in the cloned repository are first pushed to the forked repository, and then a pull request is created.
+
+___
