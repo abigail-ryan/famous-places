@@ -260,6 +260,8 @@ The player recieves immediate feedback if they got the correct or incorrect answ
 
 When the player reaches the end of the quiz, they are presented with their results. If the player did not input their name at the start, the results show the default "Player 1", and if they did the result page is personalised. This is followed by their score out of 10 correct answers, and a message based on their score level. The player then has the option to play the game again, which will keep their name/default name, and take them to the first question. If the user exits the quiz, they are brough back to the start modal.
 
+In tablet view, the game is displayed the same as desktop view.
+
 #### Mobile View
 <details>
 <summary>Mobile View</summary>
