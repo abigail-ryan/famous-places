@@ -409,3 +409,12 @@ Use following steps to make a clone:
 Changes made on the cloned repository can be pushed to the upstream repository directly if you have a write access for the repository. Otherwise, the changes made in the cloned repository are first pushed to the forked repository, and then a pull request is created.
 
 ___
+
+### Credits
+#### Content and Code References
+
+#### Media References
+
+___
+
+### Acknowledgements
