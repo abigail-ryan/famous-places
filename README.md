@@ -182,6 +182,7 @@ With the idea to keep the design clean and fresh I chose my color pallete based 
 <br>
 
 ![Quiz background - colorful question marks](assets/images/famous-places-background-img.jpg)
+The background was darkened to allow the full focus to be on the question and images within the quiz.
 </details>
 
 
@@ -264,3 +265,25 @@ The player recieves immediate feedback if they got the correct or incorrect answ
 ![Screenshot of Famous Places quiz results personalised](documentation/famous-places-results-modal-personalised.png)
 
 When the player reaches the end of the quiz, they are presented with their results. If the player did not input their name at the start, the results show the default "Player 1", and if they did the result page is personalised. This is followed by their score out of 10 correct answers, and a message based on their score level. The player then has the option to play the game again, which will keep their name/default name, and take them to the first question. If the user exits the quiz, they are brough back to the start modal.
+
+#### Mobile View
+<details>
+<summary>Mobile View</summary>
+<br>
+
+| Start Modal | Game Rules | Quiz Layout |
+| ---| ---| ---|
+| ![Screenshot of Famous Places mobile view - start modal](documentation/famous-places-mobile-start-modal.png) | ![Screenshot of Famous Places mobile view - rules modal](documentation/famous-places-mobile-rules-modal.png) | ![Screenshot of Famous Places mobile view - quiz layout](documentation/famous-places-mobile-quiz-layout.png) | 
+
+
+| Incorrect Answer | Correct Answer | 
+| ---| ---|
+| ![Screenshot of Fammous Places mobile view - incorrect answer](documentation/famous-places-mobile-incorrect-answer.png) | ![Screenshot of Fammous Places mobile view - correct answer](documentation/famous-places-mobile-correct-answer.png) |
+
+| Results - Default Name | Results - Personalised Name |
+| ---| ---|
+| ![Screenshot of Famous Places mobile view - default player name](documentation/famous-places-mobile-default-name.png) | ![Screenshot of Famous Places mobile view - personalised player name](documentation/famous-places-mobile-personalised-name.png) |
+</details>
+
+___
+
