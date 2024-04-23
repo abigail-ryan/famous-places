@@ -237,17 +237,30 @@ ___
 
 #### Desktop View
 ##### Start Modal
-![Screenshot of Famous Places start modal]()
+![Screenshot of Famous Places start modal](documentation/famous-places-start-modal.png)
+
+The start modal displays the game name, along with a tagline "A quiz around the world!" to inform the user what this game is about. A colorful image of a collage of famous monuments, some of which feature in the Famous Places quiz, is also displayed here. The game rules are contained within a pop out modal, and underneath that, the user is instructed to input their name(optional) before starting the game. 
+
+The game cannot be started until the user clicks the start button.
 
 ##### Game Rules 
-![Screenshot of Famous Places game rules pop out modal]()
+![Screenshot of Famous Places game rules pop out modal](documentation/famous-places-game-rules.png)
+
+The game rules modal pops out when the user clicks the view game rules button. The game rules are explained, and the user then has to click the "x" in the top right hand corner to exit the rules modal. This modal cannot be closed by clicking anywhere else on the screen.
 
 ##### Quiz Layout
-![Screenshot of Famous Places quiz layout]()
+![Screenshot of Famous Places quiz layout](documentation/famous-places-quiz-layout.png)
+
+Once the player clicks the start button, they are presented with the first question (shuffled randomly for each new game). The quiz includes a large image of a famous place in the world, along with a question, and four possible answers. The questions include some interesting facts and general knowledge, and vary in difficulty. Only after the player selects an aswer, the "next" button appears allowing the player move to the next question.
 
 ##### Answer Feedback
-![Screenshot of Famous Places incorrect answer feedback]()
-![Screenshot of Famous Places correct answer feedback]()
+![Screenshot of Famous Places incorrect answer feedback](documentation/famous-places-incorrect-answer.png)
+![Screenshot of Famous Places correct answer feedback](documentation/famous-places-correct-answer.png)
+
+The player recieves immediate feedback if they got the correct or incorrect answer. Once selected, the player is not able to change their answer. To encourage the players to play the quiz again I chose not to include highlighting the correct answer when the user gets it wrong. This way, for more difficult questions or when the player has no clue what the answer is, it will encourage them to play again to find out the correct answer and beat their previous score. 
 
 ##### Quiz Results
-![Screenshot of Famous Places quiz results]()
+![Screenshot of Famous Places quiz results default name](documentation/famous-places-results-modal-default-name.png)
+![Screenshot of Famous Places quiz results personalised](documentation/famous-places-results-modal-personalised.png)
+
+When the player reaches the end of the quiz, they are presented with their results. If the player did not input their name at the start, the results show the default "Player 1", and if they did the result page is personalised. This is followed by their score out of 10 correct answers, and a message based on their score level. The player then has the option to play the game again, which will keep their name/default name, and take them to the first question. If the user exits the quiz, they are brough back to the start modal.
