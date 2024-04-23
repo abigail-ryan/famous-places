@@ -38,14 +38,7 @@ Users of this site can play the multiple- choice quiz, with immediate feedback, 
    * [Frameworks, Libraries, Technologies and Programs used](#frameworks-libraries-technologies-and-programs-used)
 * [Testing](#testing)
   * [Manual Testing](#manual-testing)
-  * [HTML Validation using W3C Validation](#html-validation-using-w3c-validation)
-    * [Index page](#index-page)
-    * [Quiz page](#quiz-page)
-  * [CSS Validation using W3C Validation](#css-validation-using-w3c-validation) 
-  * [Lighthouse scores using Chrome Dev Tools](#lighthouse-scores-using-chrome-dev-tools)
-    * [Desktop](#desktop) 
-    * [Mobile](#mobile)
-   * [Bugs](#bugs)
+  * [Validation and Lighthouse Testing](#validation-and-lighthouse-testing)
 * [Deployment](#deployment) 
 * [Forking the GitHub Repository](#forking-the-github-repository)
 * [Clone the GitHub Repository](#clone-the-github-repository)
@@ -296,5 +289,83 @@ With more learning and understanding of JavaScript, for future development of th
 * A much larger selection of questions so that the quiz is vastly different every time the game is played.
 * A difficulty level where players race against the clock to get the answers right before running out of time.
 
-__
+___
 
+### Technologies Used
+#### Languages
+* HTML
+* CSS
+* JavaScript
+
+#### Frameworks, Libraries, Technologies and Programs Used
+
+* Uizard - used to create wireframes and view colour scheme
+*	Git - used for version control
+*	GitHub - used to save and store all files for this website
+*	Google Fonts – used to import the font for this site
+*	Canva Colour – used for colour palette creation
+*	Favicon.io – for the globe favicon
+*	Tiny PNG - used to compress images
+* WebAim Contrast Checker - for checking my colour contrasts for this site
+*	Google Dev Tools – used to test responsiveness and to debug
+*	Google Lighthouse - for testing overall performance and accessibility of the site
+*	W3C Validator - for validating my HTML and CSS code
+* JSHint - for validating my JavaScript code
+
+___
+
+### Testing
+#### Manual Testing
+
+The browsers used were:
+*	Chrome
+*	Opera
+*	Microsoft Edge
+*	Safari
+
+I deployed my site early in the development process to test on real-world devices and continued testing throughout. These devices user were:
+* Acer Aspire F 15 Laptop
+*	Realme 11 Pro+ phone
+*	Huawei P20 Pro phone
+*	Apple iPad 2018
+
+The results of feature testing are as follows:
+
+#### Validation and Lightouse Testing
+
+<details>
+<summary>HTML Validation</summary>
+<br>
+
+![Screenshot of w3c html validation no errors]()
+</details>
+
+<details>
+<summary>CSS Validation</summary>
+<br>
+
+![Screenshot of w3c css validation no errors]()
+</details>
+
+<details>
+<summary>JavaScript Validation</summary>
+<br>
+
+![Screenshot of jshint javascript validation no errors, 2 warnings]()
+</details>
+
+<details>
+<summary>Lighthouse Testing - Desktop Score</summary>
+<br>
+
+![Screenshot of lighthouse testing - desktop score]()
+</details>
+
+<details>
+<summary>Lighthouse Testing - Mobile Score</summary>
+<br>
+
+![Screenshot of lighthouse testing - desktop score]()
+</details>
+
+___
