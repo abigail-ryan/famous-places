@@ -412,8 +412,59 @@ ___
 
 ### Credits
 #### Content and Code References
+* [Code Institute](https://codeinstitute.net/ie/) for the HTML, CSS and JavaScript learning material.
+* [W3Schools](https://www.w3schools.com/howto/howto_css_modals.asp) for start, game rules and results modals functions adapted for this project.
+* [GreatStack](https://www.youtube.com/watch?v=PBcqGxrr9g8) for the quiz layout, questions array and quiz game functions, which I studied and adapted for this project.
+* [Canva Colours](https://www.canva.com/colors/color-palettes/inner-glow/) for the color palette creation.
+* [Tiny.png](https://tinypng.com/) for compressing image files.
+* [Google fonts](https://fonts.google.com/) for the fonts used in this project.
+* [MND Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow) for box shadow styling used throughout this project.
+* [Alice Hiller](https://github.com/alicehillier/rainforest-cafe/#deployment) for the forking and cloning a GitHub repository structure.
+* [Kera Cudmore - Creating your First README](https://github.com/kera-cudmore/readme-examples) for README content structure and Markdown language guidance.
 
 #### Media References
+* [Pixabay](https://www.pixabay.com/), [Unsplash](https://unsplash.com/), and [Freepik](https://www.freepik.com/) were used to source all images used on this site. 
+* All general knowledge and factual questions used within this site were written and/or edited by me, and sourced through Google searches.
+<details>
+<summary>Sources</summary>
+<br>
+
+[Questions marks image used for the body background](https://www.freepik.com/free-vector/web-help-support-page-template-design_9504938.htm#query=quiz%20background&position=14&from_view=keyword&track=ais&uuid=ecc6cc2e-31ff-4e9f-8fce-bfb49f5cc882) - I removed the text within the center of the image using paint on my laptop.
+
+[Taj Mahal Image](https://unsplash.com/@jovynchamb?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) | [Taj Mahal Question](https://indiaculture.gov.in/taj-mahal#:~:text=Shah%20Jahan%2C%20in%20order%20to,had%20this%20funerary%20mosque%20built)
+
+[The Louvre Image](https://pixabay.com/users/designerpoint-554875/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=7159870) | [The Louvre Question](https://artsandculture.google.com/story/the-5-most-valuable-exhibits-around-the-world/oQWBcVVxVSq57g?hl=en)
+
+[The Eiffel Tower](https://pixabay.com/users/nkoks-771541/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1175022) | [The Eiffel Tower Question](https://www.paintsquare.com/news/view/?18617#:~:text=According%20to%20Traveller%2C%20the%20Eiffel,cover%20the%2010%2C000%2Dton%20structure)
+
+[Cliffs of Moher](https://pixabay.com/users/naknaknak-90985/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4533675) 
+
+[Big Ben](https://pixabay.com/users/sarahlarkin-1640973/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1042240)
+
+[Sydney Opera House Image](https://pixabay.com/users/jonny_joka-4913008/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=3933588) | [Sydney Opera House Question](https://www.sydneyoperahouse.com/building/interesting-facts-about-sydney-opera-house)
+
+[Statue Of Liberty Image](https://pixabay.com/users/engel9-641086/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=5503807) | [Statue Of Liberty Question](https://artsandculture.google.com/story/hgWBLOYeOkTxmQ)
+
+[Roman Colosseum Image](https://pixabay.com/users/vmonte13-8508172/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4673265) | [Roman Colosseum Question](https://www.natgeokids.com/ie/discover/history/romans/colosseum/)
+
+[Sagrada Familia Image](https://pixabay.com/users/pcdazero-2615/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=536856) | [Sagrada Familia Question](https://sagradafamilia.barcelona-tickets.com/sagrada-familia-finish-date/)
+
+[Burj Khalifa Image](https://pixabay.com/users/bs1920-4429075/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2057583) | [Burj Khalifa Question](https://en.wikipedia.org/wiki/Burj_Khalifa)
+
+[Death Valley Desert Image](https://pixabay.com/users/jplenio-7645255/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=3133502) | [Death Valley Desert Question](https://en.wikipedia.org/wiki/Death_Valley)
+
+[Great Wall of China Image](https://pixabay.com/users/jplenio-7645255/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=3675637) | [Great Wall of China Question](https://en.wikipedia.org/wiki/History_of_the_Great_Wall_of_China#:~:text=The%20history%20of%20the%20Great,against%20incursions%20by%20nomads%20from)
+
+[Great Pyramids of Giza Image](https://pixabay.com/users/henryleester-2440121/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=5584652) | [Great Pyramids of Giza Question](https://www.nationalgeographic.com/history/history-magazine/article/egypt-great-pyramids-giza-plateau#:~:text=Along%20with%20the%20enigmatic%20Sphinx,and%20Menkaure%20(213%20feet).)
+
+[The Grand Canyon Image](https://pixabay.com/users/thedigitalartist-202249/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=5414355) | [The Grand Canyon Question](https://www.shakaguide.com/article/grand-canyon/egyptian-artifacts-in-the-grand-canyon)
+
+[Abu Simbel Temple Image](https://pixabay.com/users/axp_photography-28445136/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=7348347) | [Abu Simbel Temple Question](https://www.enjoytravel.com/en/travel-news/interesting-facts/interesting-facts-about-abu-simbel)
+
+</details>
+<br>
+
+* [Favicon.io](https://favicon.io/) for the favicon used for this site.
 
 ___
 
