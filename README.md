@@ -25,15 +25,12 @@ Users of this site can play the multiple- choice quiz, with immediate feedback, 
   * [Imagery](#imagery)
 * [Page Features](#page-features)
   * [Desktop View](#desktop-view)
-    * [Header](#header)
-    * [Hero image](#hero-image)
+    * [Start Modal](#start-modal)
     * [Game Rules](#game-rules)
-    * [CTA](#cta)
-    * [Footer](#footer)
     * [Quiz Layout](#quiz-layout)
+    * [Answer Feedback](#answer-feedback)
     * [Quiz Results](#quiz-results)
-  * [Tablet and Mobile View](#tablet-and-mobile-view)
-    * [Tablet View](#tablet-view)
+  * [Mobile View](#mobile-view)
     * [Mobile view](#mobile-view)
  * [Future Features](#future-features)
  * [Technologies Used](#technologies-used)
@@ -235,3 +232,22 @@ All images used throughout Famous Places were sourced from pixabay.com, unsplash
 
 ___
 
+
+### Page Features
+
+#### Desktop View
+##### Start Modal
+![Screenshot of Famous Places start modal]()
+
+##### Game Rules 
+![Screenshot of Famous Places game rules pop out modal]()
+
+##### Quiz Layout
+![Screenshot of Famous Places quiz layout]()
+
+##### Answer Feedback
+![Screenshot of Famous Places incorrect answer feedback]()
+![Screenshot of Famous Places correct answer feedback]()
+
+##### Quiz Results
+![Screenshot of Famous Places quiz results]()
