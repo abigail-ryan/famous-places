@@ -469,3 +469,8 @@ ___
 ___
 
 ### Acknowledgements
+
+I would like to thank the following:
+* My mentor, Mitko Bachvarov, for his time, help and suggestions throughout this project.
+* My C.I. Cohort Facilitator, Amy Richardson, also for her encouragement and guidance, and for checking in along the way.
+* My family for their help testing my project and offering valuable user feedback.
