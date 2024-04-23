@@ -287,3 +287,14 @@ When the player reaches the end of the quiz, they are presented with their resul
 
 ___
 
+### Future Features
+
+With more learning and understanding of JavaScript, for future development of this project I would like to add:
+* A high scores feature, that shows the current users a list of their high scores based on their current game attempts.
+* A timer function so users can see their time taken to complete the quiz. 
+* A results percentage display, inspired by this tutorial from [Codehal](https://www.youtube.com/watch?v=Vp8x8-reqZA). (_I did want to, and tried to, include this particular feature in the current version of this project, however it is outside my scope of learning at the moment and I was unable to make the code work in my project. It is a feature I will work to understand and include in future versions._)
+* A much larger selection of questions so that the quiz is vastly different every time the game is played.
+* A difficulty level where players race against the clock to get the answers right before running out of time.
+
+__
+
