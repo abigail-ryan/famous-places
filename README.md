@@ -4,7 +4,7 @@
 Famous Places is an online interactive quiz for teens and adults to test their knowledge of famous landmarks throughout the world.
 Users of this site can play the multiple- choice quiz, with immediate feedback, and view their scores at the end.
 
-![Screenshot of Famous Places responsive design through Am I responsive website](documentation/responsive-screenshot.png)
+![Screenshot of Famous Places responsive design through Am I responsive website](documentation/famous-places-responsive-screenshot.png)
 
 ## Contents
 * [User Stories](#user-stories)
@@ -187,6 +187,7 @@ With the idea to keep the design clean and fresh I chose my color pallete based 
 ![Quiz background - colorful question marks](assets/images/famous-places-background-img.jpg)
 </details>
 
+
 <br>
 I tested these colours out in Uizard to see a how I liked the color pairing.
 <details>
@@ -196,16 +197,27 @@ I tested these colours out in Uizard to see a how I liked the color pairing.
 ![Screenshot of Famous Places color palette test in Uizard](documentation/famous-places-color-pallete-test.PNG)
 </details>
 
+<details>
+<summary>Aditional colors</summary>
+<br>
+I used the following colors to add more life to the buttons in the form of borders, box shadows and hover effects.
+
+![Additional colors](documentation/famous-places-border-color-1.png)
+![Additional colors](documentation/famous-places-border-color-2.png)
+![Additional colors](documentation/famous-places-border-color-3.png)
+![Additional colors](documentation/famous-places-box-shadow.png)
+</details>
+
 <br>
 I also ran my colour pairings through Contrast Checker to check for color contrast accessibility issues. I had initially wanted to use white text within all my buttons however this returned all fails for the answers buttons color. So I decided to use black text throughout the entire quiz, apart from the “start”, “next”  and “play again” buttons, as these passed the contrast checker for large text, and so I ensured these buttons were large with a high font weight to make the text bold.
 <details>
 <summary>Color Contrast Checker</summary>
 <br>
 
-![Screenshot of Famous Places contrast checker 1](documentation/contrast-checker-1.PNG)
-![Screenshot of Famous Places contrast checker 2](documentation/contrast-checker-2.PNG)
-![Screenshot of Famous Places contrast checker 3](documentation/contrast-checker-3.PNG)
-![Screenshot of Famous Places contrast checker 4](documentation/contrast-checker-4.PNG)
+![Screenshot of Famous Places contrast checker 1](documentation/famous-places-contrast-checker-1.PNG)
+![Screenshot of Famous Places contrast checker 2](documentation/famous-places-contrast-checker-2.PNG)
+![Screenshot of Famous Places contrast checker 3](documentation/famous-places-contrast-checker-3.PNG)
+![Screenshot of Famous Places contrast checker 4](documentation/famous-places-contrast-checker-4.PNG)
 </details>
 
 #### Typography
