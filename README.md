@@ -180,20 +180,24 @@ With the idea to keep the design clean and fresh I chose my color pallete based 
 
 ![Screenshot of Famous Places color palette](documentation/famous-places-color-pallete.png)
 
-I tested these colours out in Uizard to see a how I liked the color pairing.
-
 <details>
-<summary>Color pairing test</summary>
+<summary>Color Palette Inspo</summary>
+<br>
+
+![Quiz background - colorful question marks](assets/images/famous-places-background-img.jpg)
+</details>
+
+<br>
+I tested these colours out in Uizard to see a how I liked the color pairing.
+<details>
+<summary>Uizard Color pairing test</summary>
 <br>
 
 ![Screenshot of Famous Places color palette test in Uizard](documentation/famous-places-color-pallete-test.PNG)
 </details>
 
-
 <br>
 I also ran my colour pairings through Contrast Checker to check for color contrast accessibility issues. I had initially wanted to use white text within all my buttons however this returned all fails for the answers buttons color. So I decided to use black text throughout the entire quiz, apart from the “start”, “next”  and “play again” buttons, as these passed the contrast checker for large text, and so I ensured these buttons were large with a high font weight to make the text bold.
-
-
 <details>
 <summary>Color Contrast Checker</summary>
 <br>
