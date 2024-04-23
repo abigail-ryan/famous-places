@@ -337,35 +337,39 @@ The results of feature testing are as follows:
 <summary>HTML Validation</summary>
 <br>
 
-![Screenshot of w3c html validation no errors]()
+![Screenshot of w3c html validation no errors](documentation/html-validation-check.png)
 </details>
 
 <details>
 <summary>CSS Validation</summary>
 <br>
 
-![Screenshot of w3c css validation no errors]()
+![Screenshot of w3c css validation no errors](documentation/css-validation-check.png)
 </details>
 
 <details>
 <summary>JavaScript Validation</summary>
 <br>
 
-![Screenshot of jshint javascript validation no errors, 2 warnings]()
+![Screenshot of jshint javascript validation no errors, 2 warnings](documentation/javascript-validation-check.png)
+
+These warnings were minor and very easily fixed.
 </details>
 
 <details>
 <summary>Lighthouse Testing - Desktop Score</summary>
 <br>
 
-![Screenshot of lighthouse testing - desktop score]()
+![Screenshot of lighthouse testing - desktop score](documentation/lighthouse-score-desktop.png)
 </details>
 
 <details>
 <summary>Lighthouse Testing - Mobile Score</summary>
 <br>
 
-![Screenshot of lighthouse testing - desktop score]()
+![Screenshot of lighthouse testing - desktop score](documentation/lighthouse-score-mobile.png)
+
+The lighthouse performance score for mobile is significantly lower than on desktop. The diagnostics mentions large layout shifts, which I will take into account for future projects. There is also a mention of large image file sizes. As my project has many images throughout, I feel that this accounted for the slower performance score, and will ensure to minimise file sizes as much as possible for future versions of this project and other projects going forward.
 </details>
 
 ___
