@@ -186,11 +186,11 @@ var span = document.getElementsByClassName("close")[0];
 // Open the game rules modal 
 btn.onclick = function() {
   rulesModal.style.display = "block";
-}
+};
 // Close the game rules modal when user clicks on x
 span.onclick = function() {
   rulesModal.style.display = "none";
-}
+};
 
 
 // Global Variables
