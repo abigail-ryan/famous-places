@@ -2,7 +2,7 @@
 [View my live site here](https://abigail-ryan.github.io/famous-places/)
 
 Famous Places is an online interactive quiz for teens and adults to test their knowledge of famous landmarks throughout the world.
-Users of this site can play the multiple- choice quiz, with immediate feedback, and view their scores at the end.
+Users of this site can play the multiple-choice quiz, with immediate feedback, and view their scores at the end.
 
 ![Screenshot of Famous Places responsive design through Am I responsive website](documentation/famous-places-responsive-screenshot.png)
 
@@ -58,7 +58,7 @@ The goal is to create an interactive online quiz for teens and adults, based on 
 
 #### Visitor Goals
 
-Visitors to Famous Places will be able to take part in a general knowledge quiz and see in real time if they got the correct answers. They will also be able to view their final score and have a chance to take the quiz again.
+Visitors to Famous Places will be able to take part in a general knowledge and fun facts quiz and see in real time if they got the correct answers. They will also be able to view their final score and have a chance to take the quiz again.
 
 #### New User
 
@@ -112,10 +112,10 @@ ___
 
 *	The layout and design of the quiz must be clean, and very minimal to avoid distraction.
 *	Upon loading, the landing page will display a large heading.
-*	Below that, a short description of the game rules, with a start button underneath allowing the player to start the quiz when ready. This will be displayed on a ‘tile’ background that is centred on the page.
-*	The player will be taken to the first question, which will have a large image of a famous monument/building, along with a question, and 4 possible answers. This will be displayed on a ‘tile’ that is centred on the page.
+*	Below that, a short description of the game rules, with a start button underneath allowing the player to start the quiz when ready. This will be displayed on a tile background that is centred on the page.
+*	The player will be taken to the first question, which will have a large image of a famous monument/building, along with a question, and 4 possible answers. This will be displayed on a tile that is centred on the page.
 *	The “next” button will be displayed after the player selects an answer.
-*	The results page will show the player a tally of their score. Again this will be displayed again on a ‘tile’ background that is centred on the page.
+*	The results page will show the player a tally of their score. Again this will be displayed again on a tile background that is centred on the page.
 
 #### Wireframes
 <details>
@@ -156,7 +156,8 @@ Mobile & Desktop view:
 #### Surface 
 
 * It was important to keep the design of the quiz clean and fresh.
-* The background ‘tiles’ were kept white, to allow the images stand out and be the focus.
+* The background "tiles" were kept white, to allow the image and answers be the focus.
+* The background question marks image was darkened to allow the quiz "tiles" stand out.
 * The answer buttons were styled with pops of color inspired by the background image, for a bring fun feel for the game. 
 * The player receives immediate feedback on their answers. The selected button changes color to indicate correct or incorrect answers. 
 * The player recieves their final score at the end of the quiz, with a feedback message depending on their score level.
@@ -172,7 +173,7 @@ With the idea to keep the design clean and fresh I chose my color pallete based 
 ![Screenshot of Famous Places color palette](documentation/famous-places-color-pallete.png)
 
 <details>
-<summary>Color Palette Inspo</summary>
+<summary>Color Palette Inspiration</summary>
 <br>
 
 ![Quiz background - colorful question marks](assets/images/famous-places-background-img.jpg)
@@ -183,14 +184,14 @@ The background was darkened to allow the full focus to be on the question and im
 <br>
 I tested these colours out in Uizard to see a how I liked the color pairing.
 <details>
-<summary>Uizard Color pairing test</summary>
+<summary>Uizard Color Pairing Test</summary>
 <br>
 
 ![Screenshot of Famous Places color palette test in Uizard](documentation/famous-places-color-pallete-test.PNG)
 </details>
 
 <details>
-<summary>Aditional colors</summary>
+<summary>Aditional Colors</summary>
 <br>
 I used the following colors to add more life to the buttons in the form of borders, box shadows and hover effects.
 
@@ -201,7 +202,7 @@ I used the following colors to add more life to the buttons in the form of borde
 </details>
 
 <br>
-I also ran my colour pairings through Contrast Checker to check for color contrast accessibility issues. I had initially wanted to use white text within all my buttons however this returned all fails for the answers buttons color. So I decided to use black text throughout the entire quiz, apart from the “start”, “next”  and “play again” buttons, as these passed the contrast checker for large text, and so I ensured these buttons were large with a high font weight to make the text bold.
+I also ran my colour pairings through Contrast Checker to check for color contrast accessibility issues. I had initially wanted to use white text within all my buttons however this returned all fails for the answers buttons color. I decided to use black text throughout the entire quiz, apart from the “start”, “next”  and “play again” buttons, as these passed the contrast checker for large text, and so I ensured these buttons were large with a high font weight to make the text bold.
 <details>
 <summary>Color Contrast Checker</summary>
 <br>
@@ -220,9 +221,9 @@ I used Font Joy to search for a font pairing that I liked. I chose to use only o
 
 #### Imagery
 
-It was important to me that the imagery used within the quiz was very vibrant and had strong colors, as I wanted to create a clean look to body of the quiz, while the focus and attention was on the images and quiz questions. 
+It was important to me that the imagery used within the quiz was very vibrant and had strong colors, as I wanted to create a bright and fun look to body of the quiz, while the focus and attention was on the images and quiz questions. 
 
-All images used throughout Famous Places were sourced from pixabay.com, unsplash.com and freepik.com. Attributions to each photographer and source are placed in the Credits section of this README.
+All images used throughout Famous Places were sourced from Pixabay, Unsplash, and Freepik. Attributions to each photographer and source are placed in the Credits section of this README.
 
 
 ___
@@ -246,7 +247,7 @@ The game rules modal pops out when the user clicks the view game rules button. T
 ##### Quiz Layout
 ![Screenshot of Famous Places quiz layout](documentation/famous-places-quiz-layout.png)
 
-Once the player clicks the start button, they are presented with the first question (shuffled randomly for each new game). The quiz includes a large image of a famous place in the world, along with a question, and four possible answers. The questions include some interesting facts and general knowledge, and vary in difficulty. Only after the player selects an aswer, the "next" button appears allowing the player move to the next question.
+Once the player clicks the start button, they are presented with the first question (shuffled randomly for each new game). The quiz includes a large image of a famous place in the world, along with a question, and four possible answers. The questions include some interesting facts and general knowledge, and vary in difficulty. Only after the player selects an answer, the "next" button appears allowing the player move to the next question.
 
 ##### Answer Feedback
 ![Screenshot of Famous Places incorrect answer feedback](documentation/famous-places-incorrect-answer.png)
@@ -258,7 +259,8 @@ The player recieves immediate feedback if they got the correct or incorrect answ
 ![Screenshot of Famous Places quiz results default name](documentation/famous-places-results-modal-default-name.png)
 ![Screenshot of Famous Places quiz results personalised](documentation/famous-places-results-modal-personalised.png)
 
-When the player reaches the end of the quiz, they are presented with their results. If the player did not input their name at the start, the results show the default "Player 1", and if they did the result page is personalised. This is followed by their score out of 10 correct answers, and a message based on their score level. The player then has the option to play the game again, which will keep their name/default name, and take them to the first question. If the user exits the quiz, they are brough back to the start modal.
+When the player reaches the end of the quiz, they are presented with their results. If the player did not input their name at the start, the results show the default "Player 1", and if they did the result page is personalised. This is followed by their score out of 10 correct answers, and a message based on their score level. The player then has the option to play the game again, which will keep their name/default name, and take them to the first question to play again. If the user exits the quiz, they are brough back to the start modal.
+
 
 In tablet view, the game is displayed the same as desktop view.
 
@@ -286,8 +288,7 @@ ___
 ### Future Features
 
 With more learning and understanding of JavaScript, for future development of this project I would like to add:
-* A high scores feature, that shows the current users a list of their high scores based on their current game attempts.
-* A timer function so users can see their time taken to complete the quiz. 
+* A high scores feature, that shows the player a list of their high scores based on their current game attempts.
 * A results percentage display, inspired by this tutorial from [Codehal](https://www.youtube.com/watch?v=Vp8x8-reqZA). (_I did want to, and tried to, include this particular feature in the current version of this project, however it is outside my scope of learning at the moment and I was unable to make the code work in my project. It is a feature I will work to understand and include in future versions._)
 * A much larger selection of questions so that the quiz is vastly different every time the game is played.
 * A difficulty level where players race against the clock to get the answers right before running out of time.
@@ -309,7 +310,7 @@ ___
 *	Canva Colour – used for colour palette creation
 *	Favicon.io – for the globe favicon
 *	Tiny PNG - used to compress images
-* WebAim Contrast Checker - for checking my colour contrasts for this site
+* WebAim Contrast Checker - for checking button colour contrast for this site
 *	Google Dev Tools – used to test responsiveness and to debug
 *	Google Lighthouse - for testing overall performance and accessibility of the site
 *	W3C Validator - for validating my HTML and CSS code
@@ -320,7 +321,7 @@ ___
 ### Testing
 #### Manual Testing
 
-My goal for this project was to create a fun and interactive quiz that users could enjoy playing on mobile devices primarily, but could also access on various devices with larger screen sizes. I used Chrome Dev Tools to view Famous Places on various screen sizes through my entire project and ensure a responsive design. The browsers used were:
+My goal for this project was to create a fun and interactive quiz that users could enjoy playing on mobile devices primarily, but could also access on various devices with larger screen sizes. I used Chrome Dev Tools to view Famous Places on various screen sizes through my entire project and ensure a responsive design.
 The browsers used were:
 *	Chrome
 *	Opera
@@ -339,7 +340,7 @@ The results of feature testing are as follows:
 
 | Feature | Expected Action | Pass/Fail |
 | ---| ---| ---|
-| Start Modal | Appears on load, displaying game name and tagline, image, game rules, username input and start button | Pass |
+| Start Modal | Appears on load, displaying heading and tagline, image, game rules, username input and start button | Pass |
 | Start Modal | Users cannot click anywhere outside start modal to start the quiz | Pass |
 | Game Rules Button | When user clicks "View Game Rules" button, game rules modal pops up to display the rules of the game | Pass |
 | Game Rules Modal | Users must click the "x" to close the rules modal. Modal cannot be closed when clicking anywhere else on the screen | Pass |
@@ -370,8 +371,8 @@ The results of feature testing are as follows:
 | Feature | Expected Action | Pass/Fail |
 | ---| ---| ---|
 | Results Modal | Results modal is display when the users has reached the end of the quiz | Pass |
-| Player Name | Player name is displayed as "Player 1" by default if a player does not input their username | Pass |
-| Player Name | Player name is displayed as the value entered if a player does input their username | Pass |
+| Player Name | Player name is displayed as "Player 1" by default if a player does not input a username | Pass |
+| Player Name | Player name is displayed as the value entered if a player does input a username | Pass |
 | Player Score | Player score shows the number of correct answers out of 10  | Pass |
 | Player Feedback | Displays a message based on the users score level | Pass |
 | Play Again Button | Continues the game loop and brings the user back to the first question | Pass |
@@ -387,7 +388,7 @@ The results of feature testing are as follows:
 | ---| ---| ---|
 | Username Input | Requires a minimum of 2 characters | Fail |
 
-The form input field fails to require a user to input a minimum of 2 characters for a username. This fail is possibly due to the fact that I have allowed inputting a username to be optional, rather than required. I prefer to keep the username input optional, however I will look into a solution to this minlenght issue for future projects.
+The form input field fails to require a user to input a minimum of 2 characters for a username. However the max input does work, preventing users inputting more than 10 characters. This fail is possibly due to the fact that I have allowed inputting a username to be optional, rather than required.  I prefer to keep the username input optional, however I will look into a solution to this minlenght issue for future projects.
 
 
 #### Validation and Lightouse Testing
@@ -412,7 +413,7 @@ The form input field fails to require a user to input a minimum of 2 characters 
 
 ![Screenshot of jshint javascript validation no errors, 2 warnings](documentation/javascript-validation-check.png)
 
-These warnings were minor and very easily fixed.
+Two very minor warnings showed - missing semicolons.
 </details>
 
 <details>
@@ -434,7 +435,7 @@ The lighthouse performance score for mobile is significantly lower than on deskt
 ___
 
 ### Deployment
-GitHub was used to deploy the Mindful Habit website. 
+GitHub was used to deploy the Famous Places website. 
 1.	Login to your GitHub account
 2.	Navigate to the project repository, [abigail-ryan/famous-places](https://github.com/abigail-ryan/famous-places)
 3.	Click the Settings button near the top of the page.
@@ -474,7 +475,7 @@ ___
 * [Code Institute](https://codeinstitute.net/ie/) for the HTML, CSS and JavaScript learning material.
 * [W3Schools](https://www.w3schools.com/howto/howto_css_modals.asp) for start, game rules and results modals functions adapted for this project.
 * [GreatStack](https://www.youtube.com/watch?v=PBcqGxrr9g8) for the quiz layout, questions array and quiz game functions, which I studied and adapted for this project.
-* [Canva Colours](https://www.canva.com/colors/color-palettes/inner-glow/) for the color palette creation.
+* [Canva Colours](https://www.canva.com/colors/color-palettes/inner-glow/) for the color pallete creation.
 * [Tiny.png](https://tinypng.com/) for compressing image files.
 * [Google fonts](https://fonts.google.com/) for the fonts used in this project.
 * [MND Web Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow) for box shadow styling used throughout this project.
@@ -488,7 +489,7 @@ ___
 <summary>Sources</summary>
 <br>
 
-[Questions marks image used for the body background](https://www.freepik.com/free-vector/web-help-support-page-template-design_9504938.htm#query=quiz%20background&position=14&from_view=keyword&track=ais&uuid=ecc6cc2e-31ff-4e9f-8fce-bfb49f5cc882) - I removed the text within the center of the image using paint on my laptop.
+[Questions marks image used for the body background](https://www.freepik.com/free-vector/web-help-support-page-template-design_9504938.htm#query=quiz%20background&position=14&from_view=keyword&track=ais&uuid=ecc6cc2e-31ff-4e9f-8fce-bfb49f5cc882) - I removed the text within the center of the image using an image editor on my laptop.
 
 [Taj Mahal Image](https://unsplash.com/@jovynchamb?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) | [Taj Mahal Question](https://indiaculture.gov.in/taj-mahal#:~:text=Shah%20Jahan%2C%20in%20order%20to,had%20this%20funerary%20mosque%20built)
 
