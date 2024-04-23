@@ -137,7 +137,7 @@ ___
 </details>
 
 <details>
-<summary>From wireframe concept to final product</summary>
+<summary>From Wireframe Concept to Final Product</summary>
 <br>
 
 The overall design for my quiz has mostly remained the same as my wireframe layout, with some slight changes as mentioned below:
@@ -173,7 +173,7 @@ With the idea to keep the design clean and fresh I chose my color pallete based 
 ![Screenshot of Famous Places color palette](documentation/famous-places-color-pallete.png)
 
 <details>
-<summary>Color Palette Inspiration</summary>
+<summary>Color Pallete Inspiration</summary>
 <br>
 
 ![Quiz background - colorful question marks](assets/images/famous-places-background-img.jpg)
@@ -262,7 +262,7 @@ The player recieves immediate feedback if they got the correct or incorrect answ
 When the player reaches the end of the quiz, they are presented with their results. If the player did not input their name at the start, the results show the default "Player 1", and if they did the result page is personalised. This is followed by their score out of 10 correct answers, and a message based on their score level. The player then has the option to play the game again, which will keep their name/default name, and take them to the first question to play again. If the user exits the quiz, they are brough back to the start modal.
 
 
-In tablet view, the game is displayed the same as desktop view.
+In tablet view, the game is displayed the same as the desktop view.
 
 #### Mobile View
 <details>
@@ -353,7 +353,7 @@ The results of feature testing are as follows:
 
 | Feature | Expected Action | Pass/Fail |
 | ---| ---| ---|
-| Quiz page | Start modal is hidden, then page displays quiz image, questions and 4 multiply choice answers | Pass |
+| Quiz Page | Start modal is hidden, then page displays quiz image, questions and 4 multiply choice answers | Pass |
 | Quiz Questions | Corresponding image, question, and answers set are displayed | Pass |
 | Quiz Questions | Question set is displayed randomly for each new game | Pass |
 | Quiz Questions | Quiz runs through 10 question sets, from a possible 15 | Pass |
@@ -377,7 +377,7 @@ The results of feature testing are as follows:
 | Player Feedback | Displays a message based on the users score level | Pass |
 | Play Again Button | Continues the game loop and brings the user back to the first question | Pass |
 | Play Again Function | Keeps the username - if entered. Otherwise keeps default "Player 1" | Pass |
-| Exit quiz Button | Exits out of the game loop. Brings the user back to the start modal. Username input field is reset | Pass |
+| Exit Quiz Button | Exits out of the game loop. Brings the user back to the start modal. Username input field is reset | Pass |
 
 
 
@@ -413,7 +413,7 @@ The form input field fails to require a user to input a minimum of 2 characters 
 
 ![Screenshot of jshint javascript validation no errors, 2 warnings](documentation/javascript-validation-check.png)
 
-Two very minor warnings showed - missing semicolons.
+Two very minor warnings showed - missing semicolons which wer fixed upon discovery.
 </details>
 
 <details>
@@ -495,11 +495,11 @@ ___
 
 [The Louvre Image](https://pixabay.com/users/designerpoint-554875/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=7159870) | [The Louvre Question](https://artsandculture.google.com/story/the-5-most-valuable-exhibits-around-the-world/oQWBcVVxVSq57g?hl=en)
 
-[The Eiffel Tower](https://pixabay.com/users/nkoks-771541/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1175022) | [The Eiffel Tower Question](https://www.paintsquare.com/news/view/?18617#:~:text=According%20to%20Traveller%2C%20the%20Eiffel,cover%20the%2010%2C000%2Dton%20structure)
+[The Eiffel Tower Image](https://pixabay.com/users/nkoks-771541/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1175022) | [The Eiffel Tower Question](https://www.paintsquare.com/news/view/?18617#:~:text=According%20to%20Traveller%2C%20the%20Eiffel,cover%20the%2010%2C000%2Dton%20structure)
 
-[Cliffs of Moher](https://pixabay.com/users/naknaknak-90985/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4533675) 
+[Cliffs of Moher Image](https://pixabay.com/users/naknaknak-90985/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=4533675) 
 
-[Big Ben](https://pixabay.com/users/sarahlarkin-1640973/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1042240)
+[Big Ben Image](https://pixabay.com/users/sarahlarkin-1640973/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=1042240)
 
 [Sydney Opera House Image](https://pixabay.com/users/jonny_joka-4913008/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=3933588) | [Sydney Opera House Question](https://www.sydneyoperahouse.com/building/interesting-facts-about-sydney-opera-house)
 
